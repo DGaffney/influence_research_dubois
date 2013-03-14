@@ -1,7 +1,3 @@
-# encoding: UTF-8
-# coding: UTF-8
-# -*- coding: UTF-8 -*-
-
 require 'oii_twitter_goodies'
 Dir[File.dirname(__FILE__) + '/model/*.rb'].each {|file| require file }
 Dir[File.dirname(__FILE__) + '/extensions/*.rb'].each {|file| require file }

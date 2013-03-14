@@ -2,8 +2,8 @@ load 'environment.rb'
 credentials = TWITTER_CONFIG[:dgaff_lb]
 ffu = FollowersForUsers.new(credentials.merge(:screen_names => ["michaelbuble", "BradPaisley"]))
 results = ffu.grab_followers
-@buble = Dataset.new(:name => "Bublé")
-@paisley = Dataset.new(:name => "Paisley")
+@buble = Dataset.first_or_create(:name => "Buble")
+@paisley = Dataset.first_or_create(:name => "Paisley")
 results.each_pair do |celebrity_data, fans|
   celebrity = User.new_from_raw(celebrity_data)
   if celebrity.screen_name == "michaelbuble"
