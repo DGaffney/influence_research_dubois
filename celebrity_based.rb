@@ -1,3 +1,4 @@
+# encoding: UTF-8
 load 'environment.rb'
 credentials = TWITTER_CONFIG[:dgaff_lb]
 ffu = FollowersForUsers.new(credentials.merge(:screen_names => ["michaelbuble", "BradPaisley"]))
