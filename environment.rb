@@ -1,7 +1,7 @@
 require 'oii_twitter_goodies'
 Dir[File.dirname(__FILE__) + '/model/*.rb'].each {|file| require file }
 Dir[File.dirname(__FILE__) + '/extensions/*.rb'].each {|file| require file }
-MongoMapper.connection = Mongo::Connection.new("127.0.0.1", 27017)
+MongoMapper.connection = Mongo::Connection.new("127.0.0.1", 27017, :pool_size => 600, :pool_timeout => 600)
 MongoMapper.database = "influence_test"
 TWITTER_CONFIG = 
   {:dgaff_1 => {
@@ -16,4 +16,5 @@ TWITTER_CONFIG =
     :oauth_token_secret => "0GpYk7UgfUykXAYuU2lj2fxqY1n3qCqhf3XL4uygI"
   }
 }
+
 
