@@ -130,8 +130,4 @@ class GEXF
   def footer
     write(%{\t</graph>\n</gexf>\n})
   end
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> c50cd60819977d28f821c3f3c66802df1375d0d2

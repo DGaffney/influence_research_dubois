@@ -116,15 +116,7 @@ load 'environment.rb'
       new_tweet.save!
       print "."
     end
-<<<<<<< HEAD
     new_user.save!
     print "|"
   end
 end
-=======
-    
-    new_user.save!
-    print "|"
-  end
-end
->>>>>>> c50cd60819977d28f821c3f3c66802df1375d0d2

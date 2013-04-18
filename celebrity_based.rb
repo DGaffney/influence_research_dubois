@@ -1,7 +1,7 @@
 require 'pry'
 load 'environment.rb'
 credentials = TWITTER_CONFIG[:dgaff_lb]
-<<<<<<< HEAD
+
 ffu = FollowersForUsers.new(credentials.merge(:screen_names => ["BradPaisley"]))
 @buble = Dataset.first_or_create(:name => "Buble")
 @paisley = Dataset.first_or_create(:name => "Paisley")
@@ -12,16 +12,6 @@ ffu.grab_followers_iterative do |celebrity_data, fans|
   if celebrity.screen_name == "michaelbuble"
     fans.each do |fan|
       next if fan.class == Hash || fan.class == Hashie::Mash
-=======
-ffu = FollowersForUsers.new(credentials.merge(:screen_names => ["michaelbuble", "BradPaisley"]))
-@buble = Dataset.first_or_create(:name => "Buble")
-@paisley = Dataset.first_or_create(:name => "Paisley")
-ffu.grab_followers_iterative do |celebrity_data, fans|
-  binding.pry
-  celebrity = User.new_from_raw(celebrity_data)
-  if celebrity.screen_name == "michaelbuble"
-    fans.each do |fan|
->>>>>>> c50cd60819977d28f821c3f3c66802df1375d0d2
       print "."
       user = User.new_from_raw(fan)
       user.dataset_id = @buble.id
@@ -32,7 +22,6 @@ ffu.grab_followers_iterative do |celebrity_data, fans|
   elsif celebrity.screen_name == "BradPaisley"
     fans.each do |fan|
       print ","
-<<<<<<< HEAD
       begin
         next if User.first(:screen_name => fan["screen_name"])
         user = User.new_from_raw(fan)
@@ -43,13 +32,6 @@ ffu.grab_followers_iterative do |celebrity_data, fans|
       rescue MongoMapper::DocumentNotValid
         print "!"
       end
-=======
-      user = User.new_from_raw(fan)
-      user.dataset_id = @paisley.id
-      user.tweets.first.dataset_id = @paisley.id if !user.tweets.empty?
-      user.save
-      user.tweets.first.save if !user.tweets.empty?
->>>>>>> c50cd60819977d28f821c3f3c66802df1375d0d2
     end
   end
 end
