@@ -34,4 +34,8 @@ credentials = [{"screen_name"=>"DGaff", "oauth_token"=>"13731562-Zv0itQvq7HvjFV7
     user.save!
     print "|"
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> c50cd60819977d28f821c3f3c66802df1375d0d2

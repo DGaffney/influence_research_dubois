@@ -24,4 +24,7 @@ require 'csv'
   end
   csv.close
 end
+<<<<<<< HEAD
 
+=======
+>>>>>>> c50cd60819977d28f821c3f3c66802df1375d0d2
