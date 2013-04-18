@@ -1,5 +1,5 @@
 clear
-
+run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
 insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/ndp_nodes_extracted.csv
 *statuses_count followers_count friends_count listed_count favourites_count klout_score kred_influence kred_outreach 
 *indegree eccentricity closnesscentrality betweenesscentrality eigencentrality newClusteringCoefficient clustering 
@@ -36,3 +36,17 @@ scatter followers_count statuses_count, symbol(oh) msize(*2) title(Followers Cou
 graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/ndp/scatter-followers-count-statuses-count.png", as(png)
 scatter followers_count eigencentrality, symbol(oh) msize(*2) title(Followers Count by Eigen Centrality)
 graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/ndp/scatter-followers-count-eigencentrality.png", as(png)
+
+gen log_indegree             = log(indegree+0.5)         
+gen log_pageranks            = log(pageranks+0.5)
+gen log_authority            = log(authority+0.5)
+gen log_betweenesscentrality = log(betweenesscentrality+0.5)
+gen log_statuses_count       = log(statuses_count+0.5)
+gen log_followers_count      = log(followers_count+0.5)
+gen log_eigencentrality      = log(eigencentrality+0.5) 
+
+lowessmat log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
+graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/ndp_splom.pdf", as(pdf)
+graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/ndp_splom.png", as(png)
+
+corr log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
