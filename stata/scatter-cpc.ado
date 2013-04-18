@@ -50,3 +50,5 @@ graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/sc
 graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.png", as(png)
 
 corr log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
+spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, stats(p rho)
+ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, stats(score p)
