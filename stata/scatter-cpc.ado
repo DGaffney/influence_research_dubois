@@ -45,10 +45,17 @@ gen log_statuses_count       = log(statuses_count+0.5)
 gen log_followers_count      = log(followers_count+0.5)
 gen log_eigencentrality      = log(eigencentrality+0.5) 
 
-lowessmat log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
-graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.pdf", as(pdf)
-graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.png", as(png)
+lowessmat indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering
+graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.pdf", as(pdf) replace
+graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.png", as(png) replace
 
-corr log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
-spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, stats(p rho)
-ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, stats(score p)
+*corr log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
+*spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, stats(p rho)
+ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering
+spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering
+alpha indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, item
+alpha indegree authority
+*Tips from Zander:
+* run a spearman or k-tau (figure out the difference) to test ranks - ranking is going to be more valid than just straight correlation
+* then, you may want to run a cronbach's alpha to see if the metrics are measuring the same underlying construct. A high value indicates that a pair of matches are measuring the same thing.
+* then, run a residuals test against all the people in the dataset to see who the outliers are.
