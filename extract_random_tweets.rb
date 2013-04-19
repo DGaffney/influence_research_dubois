@@ -1,6 +1,7 @@
 load 'environment.rb'
 require 'csv'
 ["CPC", "NDP"].each do |party|
+  dataset = Dataset.first(:name => "#{party} Dataset Refined 1")
   csv = CSV.open("data/csv/#{party.downcase}_users_typical_tweets.csv", "w")
   csv << ["Twitter ID", "Internal ID", "Text", "Screen Name", "URL", "Created At"]
   users = User.all(:dataset_id => dataset.id).shuffle.first(250)
