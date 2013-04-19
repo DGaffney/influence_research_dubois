@@ -5,7 +5,7 @@ terms = %w{HOC GOC SenCA byelxn roft cdnleft p2ca QP}.collect(&:downcase)
   dataset = Dataset.first(:name => "#{party} Dataset Refined 1")
   csv = CSV.open("data/csv/#{party.downcase}_users_term_scores.csv", "w")
   csv << ["Twitter ID", "Score", "Num Tweets", "Num tweets including at least one term"]
-  users = User.all(:dataset_id => dataset.id).shuffle.first(250)
+  users = User.all(:dataset_id => dataset.id)
   users.each do |user|
     score = 0
     num_positive_hit_tweets = 0
