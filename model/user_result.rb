@@ -4,4 +4,5 @@ class UserResult
   key :kred_score
   key :twitter_id
   key :mentions_in_dataset
+  key :term_score
 end
