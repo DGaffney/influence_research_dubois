@@ -6,7 +6,7 @@ require 'csv'
   users = User.all(:dataset_id => dataset.id)
   twitter_ids = users.collect(&:tweet_ids).flatten
   offset = 0
-  user_mentions = UserMention.where(:fields => [:twitter_id], :tweet_id => twitter_ids, :twitter_id => users.collect(&:twitter_id))
+  user_mentions = UserMention.all(:tweet_id => twitter_ids, :twitter_id => users.collect(&:twitter_id))
   user_mention_counts = user_mentions.collect(&:twitter_id).flatten.counts
   file = CSV.open("data/csv/#{party.downcase}_mention_counts.csv", "w")
   file << ["Twitter ID", "Interaction count"]
