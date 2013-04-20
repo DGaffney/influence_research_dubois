@@ -1,6 +1,6 @@
 clear
 run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
-insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc_nodes_extracted.csv
+insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc_nodes_nearly_done.csv
 *statuses_count followers_count friends_count listed_count favourites_count klout_score kred_influence kred_outreach 
 *indegree eccentricity closnesscentrality betweenesscentrality eigencentrality newClusteringCoefficient clustering 
 *pageranks authority hub modularity_class 
@@ -45,14 +45,14 @@ gen log_statuses_count       = log(statuses_count+0.5)
 gen log_followers_count      = log(followers_count+0.5)
 gen log_eigencentrality      = log(eigencentrality+0.5) 
 
-lowessmat indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering
+lowessmat indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
 graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.pdf", as(pdf) replace
 graph export "~/Desktop/Life/Work/Publications/influence_research_dubois/data/scatter_plots/cpc_splom.png", as(png) replace
 
 *corr log_indegree klout_score kred_influence log_authority closnesscentrality log_betweenesscentrality log_statuses_count log_followers_count log_eigencentrality clustering
 *spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, stats(p rho)
-ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering
-spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering
+ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
+spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
 alpha indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering, item
 alpha indegree authority
 *Tips from Zander:
