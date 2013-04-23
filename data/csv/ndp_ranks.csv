@@ -1,0 +1,67 @@
+Pair, KTAU, Spearman
+Klout Score/Indegree, 0.4269,0.6021
+Kred Influence/Indegree, 0.3935,0.5543
+Authority/Indegree, 0.9541,1
+Closeness Centrality/Indegree, -0.3195,-0.3688
+Betweenness Centrality/Indegree, 0.7107,0.8896
+Statuses Count/Indegree, 0.2755,0.4008
+Followers Count/Indegree, 0.4771,0.6553
+Eigenvector Centrality/Indegree, 0.8518,0.9763
+Clustering Coefficient/Indegree, 0.0191,0.1059
+Final Term Score/Indegree, 0.2189,0.4067
+Interaction Count/Indegree, 0.5182,0.7087
+Kred Influence/Klout Score, 0.6333,0.8157
+Authority/Klout Score, 0.4269,0.6021
+Closeness Centrality/Klout Score, -0.1435,-0.2102
+Betweenness Centrality/Klout Score, 0.4118,0.5866
+Statuses Count/Klout Score, 0.4798,0.6654
+Followers Count/Klout Score, 0.6211,0.8097
+Eigenvector Centrality/Klout Score, 0.3856,0.5495
+Clustering Coefficient/Klout Score, -0.1146,-0.1406
+Final Term Score/Klout Score, 0.0623,0.117
+Interaction Count/Klout Score, 0.4950,0.6803
+Authority/Kred Influence, 0.3935 ,0.5543
+Closeness Centrality/Kred Influence, -0.1611 ,-0.2306
+Betweenness Centrality/Kred Influence, 0.3811 ,0.5386
+Statuses Count/Kred Influence, 0.7056 ,0.8775
+Followers Count/Kred Influence, 0.6681 ,0.8542
+Eigenvector Centrality/Kred Influence, 0.3482 ,0.4964
+Clustering Coefficient/Kred Influence, -0.1457 ,-0.1827
+Final Term Score/Kred Influence, 0.0366 ,0.0694
+Interaction Count/Kred Influence, 0.4656 ,0.6478
+Closeness Centrality/Authority, -0.3195 ,-0.3688
+Betweenness Centrality/Authority, 0.7107 ,0.8896
+Statuses Count/Authority, 0.2755 ,0.4008
+Followers Count/Authority, 0.4771 ,0.6553
+Eigenvector Centrality/Authority, 0.8518 ,0.9763
+Clustering Coefficient/Authority, 0.0191 ,0.1059
+Final Term Score/Authority, 0.2189 ,0.4067
+Interaction Count/Authority, 0.5182 ,0.7087
+Betweenness Centrality/Closeness Centrality, -0.2792 ,-0.303
+Statuses Count/Closeness Centrality, -0.1329 ,-0.1904
+Followers Count/Closeness Centrality, -0.1943 ,-0.2764
+Eigenvector Centrality/Closeness Centrality, -0.3439 ,-0.3758
+Clustering Coefficient/Closeness Centrality, 0.1607 ,0.1948
+Final Term Score/Closeness Centrality, -0.1136 ,-0.209
+Interaction Count/Closeness Centrality, -0.2163 ,-0.3086
+Statuses Count/Betweenness Centrality, 0.2812 ',0.4086
+Followers Count/Betweenness Centrality, 0.4659 ,0.6427
+Eigenvector Centrality/Betweenness Centrality, 0.6757 ,0.8632
+Clustering Coefficient/Betweenness Centrality, -0.0636 ,0.0033
+Final Term Score/Betweenness Centrality, 0.1829 ,0.3437
+Interaction Count/Betweenness Centrality, 0.4659 ,0.6518
+Followers Count/Statuses Count, 0.5401,0.7302
+Eigenvector Centrality/Statuses Count, 0.2505,0.366
+Clustering Coefficient/Statuses Count, -0.1105,-0.1481
+Final Term Score/Statuses Count, 0.0078,0.0164
+Interaction Count/Statuses Count, 0.2999,0.4341
+Eigenvector Centrality/Followers Count, 0.4402,0.6111
+Clustering Coefficient/Followers Count, -0.1487,-0.1707
+Final Term Score/Followers Count,0.0707,0.1322
+Interaction Count/Followers Count,0.4187,0.5873
+Clustering Coefficient/Eigenvector Centrality,0.0625,0.1548
+Final Term Score/Eigenvector Centrality,0.2355,0.4365
+Interaction Count/Eigenvector Centrality,0.4599,0.6428
+Final Term Score/Clustering Coefficient,0.0786,0.1478
+Interaction Count/Clustering Coefficient, -0.0618,-0.0628
+Interaction Count/Final Term Score, 0.1219,0.2283
