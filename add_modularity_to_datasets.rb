@@ -1,5 +1,6 @@
 load 'environment.rb'
 load 'gexf.rb'
+load 'array.rb'
 require 'csv'
 ["cpc", "ndp"].each do |party|
   nearly_done_file = CSV.open("data/csv/#{party}_nodes_nearly_done.csv", "r")
