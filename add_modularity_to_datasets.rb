@@ -33,4 +33,5 @@ require 'csv'
   new_dataset.each do |row|
     new_csv << new_header.collect{|k| row[k]}
   end;false
+  puts "Elbow for #{party} is #{modularity_scores.values.counts.values.all_stats[:elbow]}."
 end
