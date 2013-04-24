@@ -34,5 +34,10 @@ require 'csv'
   new_dataset.each do |row|
     new_csv << new_header.collect{|k| row[k]}
   end;false
+  modularity_counts_csv = CSV.open("data/csv/#{party}_modularity_counts.csv", "w")
+  modularity_counts_csv << ["modularity_class", "count"]
+  modularity_scores.values.counts.each_pair do |modularity_class, count|
+    modularity_counts_csv << [modularity_class, count]
+  end
   puts "Elbow for #{party} is #{modularity_scores.values.counts.values.all_stats[:elbow]}."
 end
