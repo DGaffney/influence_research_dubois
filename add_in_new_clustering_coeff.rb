@@ -7,7 +7,7 @@ load 'array.rb'
   raw.each do |row|
     raw_dataset << Hash[raw_headers.zip(row)]
   end;false  
-  eigen_above_cutoff = CSV.open("data/csv/#{party}_top_by_eigen_removed.csv")
+  eigen_above_cutoff = CSV.open("data/csv/#{party}_new_nodes_extracted.csv")
   eigen_above_cutoff_dataset = []
   eigen_above_cutoff_headers = eigen_above_cutoff.first
   eigen_above_cutoff.each do |row|
@@ -28,3 +28,5 @@ load 'array.rb'
   end
   out.close
 end
+
+"interaction_count"	"temp_term_score"	"num_tweets"	"term_score_distinct_tweets"	"final_term_score"

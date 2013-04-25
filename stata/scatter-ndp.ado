@@ -69,6 +69,6 @@ spearman indegree klout_score kred_influence authority closnesscentrality betwee
 
 clear
 run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
-insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/ndp_eigen_above_cutoff.csv
+insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/ndp_nodes_with_new_clustering.csv
 ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
 spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
