@@ -43,13 +43,13 @@ class Array
   def elbow_cutoff
     frequencies = self.counts
     distances = {}
-    frequencies.each_pair do |insider_score, count|
-      translated_x = insider_score/frequencies.keys.max.to_f
-      translated_y = 1-insider_score/frequencies.keys.max.to_f
-      index = frequencies.keys.sort.index(insider_score)
+    frequencies.each_pair do |score, count|
+      translated_x = score/frequencies.keys.max.to_f
+      translated_y = 1-score/frequencies.keys.max.to_f
+      index = frequencies.keys.sort.index(score)
       expected_x = index/frequencies.length.to_f
       expected_y = 1-index/frequencies.length.to_f
-      distances[insider_score] = Math.sqrt((translated_x-expected_x)**2+(translated_y-expected_y)**2)
+      distances[score] = Math.sqrt((translated_x-expected_x)**2+(translated_y-expected_y)**2)
     end
     elbow = distances.sort_by{|k,v| v}.last
     return elbow.first
