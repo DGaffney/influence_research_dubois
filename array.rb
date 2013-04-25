@@ -103,4 +103,15 @@ class Array
     summary_statistics[:n] = self.length
     summary_statistics
   end
+  
+  def all_combinations(length_range=1..self.length)
+    permutations = []
+    length_range.max.downto(length_range.min) do |length|
+      self.permutation(length).each do |perm|
+        permutations << perm.sort if !permutations.include?(perm.sort)
+      end
+    end
+    return permutations
+  end
+
 end
