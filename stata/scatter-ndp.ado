@@ -66,3 +66,9 @@ spearman indegree klout_score kred_influence authority closnesscentrality betwee
 spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count if modularity_class == 147
 spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count if modularity_class == 197
 spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count if modularity_class == 131
+
+clear
+run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
+insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/ndp_eigen_above_cutoff.csv
+ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
+spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
