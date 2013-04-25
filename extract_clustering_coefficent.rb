@@ -8,9 +8,9 @@ require 'csv'
   end;false
   closeness_of_one_dataset = []
   raw_dataset.each do |row|
-    closeness_of_one_dataset << row if row["closnesscentrality"].to_f == 1
+    closeness_of_one_dataset << row if row["clustering"].to_f == 1
   end;false
-  closeness_of_one_csv = CSV.open("data/csv/#{party}_closeness_centrality_of_one.csv", "w")
+  closeness_of_one_csv = CSV.open("data/csv/#{party}_clustering_of_one.csv", "w")
   closeness_of_one_csv << headers
   closeness_of_one_dataset.each do |row|
     closeness_of_one_csv << headers.collect{|k| row[k]}
