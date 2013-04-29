@@ -1,0 +1,336 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{apacite,pdfpages,enumitem,fancyhdr,booktabs,url,graphicx,tabularx,ragged2e,booktabs,caption,pdflscape}
+%http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite/apacite.pdf 
+\usepackage[a4paper,left=1.5cm, right=1.5cm, bottom=2cm, top=2cm]{geometry}
+\usepackage[doublespacing]{setspace}
+\pagestyle{fancy}
+\setlist{nolistsep}
+\setcounter{secnumdepth}{0}
+\setlength{\skip\footins}{1.2cm}
+\raggedbottom
+\widowpenalty=1000
+\clubpenalty=1000
+\lhead{Out of Context: Identifying Influentials in Twitter Communities}
+\rhead{\thepage}
+\cfoot{}
+\title{Out of Context: Identifying Influentials in Twitter Communities}
+\date{April 30, 2013}
+\author{}
+\begin{document}
+\maketitle
+\bibliographystyle{apacite}
+\onehalfspacing
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+250 word abstract
+
+Keywords:
+Twitter, Online Communities, Influence, Social Media, Social Network Analysis
+
+Corresponding author:
+Elizabeth Dubois, Oxford Internet Institute, University of Oxford, 1 St. Giles, Oxford, OX1 3JS, 
+UK 
+Email: elizabeth.dubois@oii.ox.ac.uk
+
+PDF, APA, 5000-7000 words max.
+
+\section{INTRODUCTION}
+
+
+The debate about whether or not the Internet is empowering individuals has been central to studies of political communication and political discussion communities, with some arguing significant increases in citizen power are likely \cite{Blumler2001, dahlgren00, dahlgren05}, and others cautioning against such hopes \cite{hindman}. The importance of examining changes in political systems given the increasing pervasiveness of digital technologies, however, is largely accepted \cite{agre}. The important question becomes, what players are involved and what kind of power do they hold? NAMES have described the political environment as consisting of an ``ecology of actors'' which includes politicians, journalists, activists, and average citizens, interacting in ways that lead to varying political outcomes. 
+
+In particular the ability to convince another individual to change their opinion, attitude, and/or behaviour is a potentially powerful skill. Those who appear to have such an ability have been termed ``influentials'' within the literature.  These influentials occupy an important role in theories of information and innovation diffusion \cite{rogers4th}; they are the ``opinion leaders'' in Katz; and Lazarsfeld's Two-Step Flow Hypothesis \citeyear{katzlazarsfeld}, and they play a crucial role in political talk and discussion which is thought to be integral to democratic integrity. 
+
+Influence, however, is a dynamic and contextual process making it hard to define and harder to measure CITE?. With the increasing pervasiveness of both online social networking tools, as well as online social network data sources, particularly Twitter, identifying influentials has at once become easier and more complex. Researchers are now able to collect huge amounts of data which can be processed computationally, which means the speed and scale at which influentials are identified is much higher. Yet, complexities arise. Influence can be thought of and measured on a scale much larger than the network of an individual's close personal ties which was the case when ideas like the Two-Step Flow were hypothesized \cite{katzlazarsfeld}. This means it is harder to qualify influence users are exerting. 
+
+In this study we aim to answer the question: Which political players are the most influential within the two largest Canadian political communities on Twitter?
+
+While many have attempted to define and identify influence on social media, and specifically within Twitter CITE, no detailed examination of the multiple measures which have surfaced is available. As such, this study takes the most common and fundamental measures of influence and compares them using the specific case of Canadian politics on Twitter. The Canadian political Twittersphere is large enough to provide sufficient data but small enough to conduct meaningful qualitative analysis which serves as a baseline for comparison. The use of two distinct hashtags, \#CPC which stands for the Conservative Party of Canada (Government) and \#NDP with stands for the New Democratic Party of Canada (Official Opposition), provides opportunity to compare two different communities within the Canadian Twittersphere at the same time ultimately lending reliability to our study. Twitter in particular is an ideal social networking site upon which to build our analysis as it has become somewhat of a benchmark for scholars examining social media. 
+
+Our findings suggest that at network-wide levels, those who traditionally hold political power – media and politicians – maintain such power, while global-level bloggers and political commentators gain prominence in the list of highly ranked users. Sometimes, at more local levels, average users are also identified as most influential. These results are of course specific to this case, but the broader notion that various measures of influence, i.e. differing operational definitions of influence, in fact identify very different kinds of influencers, is an important point researchers can benefit from when defining influence and selecting measures for future studies. Finally, our discussion of local level measures of influence as they relate to the notion of opinion leaders provide direction for future studies of political discussion communities.
+
+\subsection{Defining Influence}
+
+At a basic level, to be influential is to change the opinion, attitude, or behaviour of someone else. Katz and Lazarsfeld use this definition and expand upon it suggesting ``opinion leaders'' influence those in their social circle by exerting social pressure and social support \cite{katzlazarsfeld}. These opinion leaders are important political players because they transmit messages to a wider public who are not tuned into messages from political elite. They are knowledgeable and trusted on a specific topic. Similarly, in studies of political discussion, having a strong social tie is a prerequisite for influencing someone \cite{Eveland2011}. 
+
+Conversely, market researchers and those studying the diffusion of information tend to be more concerned with the passing of specific messages from a given influential to as many others as possible \cite{Bakshy, Watts2007, Ye2010}. Presence of a connection -- a channel for a message to flow through, is sufficient for the process of influence to take place regardless of the quality of that channel.
+
+Despite their differences in approach, these two broad theoretical backdrops for identifying influentials remain important in the study of the various players in online political discussion communities. That is because political discussion is happening in a hybrid news and media environment in which various players all have access to a variety of tools with which to communicate with each other \cite{Chadwick2011}. Politicians, journalists, activists, bloggers and average users may use multiple strategies, like broadcasting, narrowcasting, asking and responding to questions, posting informative links, etc. to interact and discuss political issues. The context in which one is influential is much less certain in an online hybrid media environment than it was when theories of influence and political communication were first articulated. 
+
+This means that assigning someone the descriptor ``influential'' can be problematic because it is harder to identify traceable practices, specific tools or strategies or even structures of social connections which are necessarily unique to influencers. 
+
+\subsection{Measuring Influence}
+
+The most labor intensive way to identify influentials is to ask people who they are influenced by and if they feel they are influential. This is the method used in most studies of the Two-Step Flow of communication and related work \cite{katz}. Done via interview or survey, the process is time consuming and limited in scale. But the presence of social media and online social networking sites has meant that much trace data exists from which networks of influence can be constructed.
+
+The majority of recent studies making use of the opportunities afforded by this enhanced access to large scale social data have assumed a more easily quantifiable definition of influence. That is they tend to take the view of influence described by \cite{rogers4th} and others who look at number of followers and/or how far a message from a given users travels as indicators of influence CITE. 
+
+Among studies concerned with identifying influentials on Twitter two dominant approaches exist. The first is concerned with users' placement within the network. These studies borrow tools from social network analysis to compute scores for degree, in-degree, out-degree, eigenvector centrality and the related PageRank, and betweenness centrality. These studies assume that when a node is placed in a network where they could be heard by many others in that network, that node is likely to be the most influential. Some examples of this are: CITE.
+
+The second approach is to consider interaction between members of the network. This can be done by composing a network in which links connecting nodes are indicative of interaction, for example a re-tweet network, and applying measures mentioned above. Alternatively in a follower-followee network, or mutuals network, by assigning a value to each node based on how many times they were mentioned/their content was reposted by anyone else in that network. In recent studies examining cascades it is common to track how far a given user's content is diffused through the network as a measure of that users influence. 
+
+Content analysis provides an alternate option for identifying influentials. Though some use complex methods, like ranking quality of language or tracking urls over time, for assigning levels of influence to individuals in a given network based on content \cite{Bakshy, sharawneh2013, Ye2010}, the simplest base form is the counting of keywords used in an individual's body of tweets. This method of identifying influentials is less common and also less transferable given that content produced by members of different networks is likely to vary quite widely. That said, it is a potentially useful measure for identifying opinion leaders since it is possible to assess a user's knowledge/expertise on a subject based on the content of their tweets.
+
+Finally, while a small number of studies have used some of the measures mentioned above in order to identify influentials within smaller networks, for example a single personal network \cite{gruzdwellmantakhteyev}, identification of influentials based on social embeddedness in their local community has been largely absent. This is problematic for those wishing to identify those political players most likely to influence individuals among the general public who are less tuned into messages coming from political elite.
+
+The local clustering coefficient is one potential social network analysis measure which could provide insight. The measure scores nodes in terms of the degree of completeness of the graph between their immediate neighbors -- a fully connected network receives a score of 1 and is a complete sub-graph, while a graph where none of these neighbors are connected (beyond the connection they have with the node in question) receives a score of zero0. Despite only being used in a handful of studies, for example \cite{Bigonha2011, Sousa}, this information could be particularly useful to those interested in identifying opinion leaders and political discussants who are locally influential within their immediate group.
+
+
+%TO CUT --- left in for now in order to transfer citations/double check we aren't cutting anything major
+
+%Social network analysis tools provide the most common basis for identifying influentials and with the help of easily accessible programs, can be calculate computationally. The specific mathematical formula have been tweaked, and the precise combination of measures modified, across studies, the core components of most studies tend to be a few basic measures of centrality: indegree and outdegree as well as follower and followee ratios \cite{Bakshy, Brown2010, Anger2011, Ye2010, Wu2011} and eigenvector centrality \cite{Bigonha2011, Weitzel2012, Subbian2011}. These measures have been used in studies of small personal networks where the goal is to understand the dynamics of a particular close-knit community \cite{gruzdwellmantakhteyev} as well as large networks where the goal is to identify information cascades and global influencers CITE. Notably, other studies have used more complex measures like PageRank, which build off the core assumptions of measures of centrality (Kwak et al. 2010 (http://dl.acm.org/citation.cfm?id=1772751) and Welch et al. 2011 (http://dl.acm.org/citation.cfm?id=1935882)).
+
+%Using Twitter data, a few types of networks are commonly constructed. The follower network, used in this study, creates a link between any user who follows another user. It is also possible to consider the mutuals network in which a link is only formed when users follow each other \cite{gruzdwellmantakhteyev}. Alternatively interaction networks may be most useful wherein links between users are formed when one user re-posts/re-tweets another's content, when one user mentions another user, or some combination \cite{Sousa, Overbey2013}.
+
+%In addition to the network wide measures of centrality noted above which can be applied to any of these types of networks, social network analysis can help identify embeddedness in local communities. 
+
+%END CUT
+
+Evidently, we have a range of different theory driven ways in which we define and operationalize influence but little sense of how they empirically play out or how they compare to one another. As such, in addition to our research question concerning who is most influential within our chosen network we ask: Do different operational definitions of influence actually measure the same general trends when considering a Twitter network constructed in this way, and if not, how do they differ and why? 
+
+
+\section{ACCESSING POLITICAL DISCUSSION COMMUNITIES}
+
+While previous studies opt for very large data sets wherein as few restraints as possible are placed whilst sampling \cite{Bakshy, Cha}, this work instead chooses to focus in on a smaller case study in order to assess the networks of interest more exhaustively. In doing so, this work aims to highlight different dimensions of influence in a given context so as to provide a more thorough sense of the types of users who are influential, and how the different dimensions relate to one another.
+
+What is particularly interesting to us is how influencers within specific political discussion communities are identified. Some have looked at specific communities within wider sets (eg. \cite{Cha} selected three topics). But this approach only works if the wider set is the complete list of those in the smaller community, which is unlikely. Further, based on the theory laid out above, we are interested in users within a very specific group. Finally, identifying everyone in a given community helps to contextualize findings by allowing us to specify issue and time period and helps us understand the strengths and limitations of various methodological approaches to identifying influentials on social media platforms.
+
+Given the importance of context to identifying influence we set a specific topic, Canadian politics, and collected tweets from a specific time period, March 12th and March 26th, 2013. Within Canadian politics we chose two distinct online communities as denoted by the use of the \#CPC and \#NDP hashtags. These are the prominent hashtags that the Government (CPC) and Official Opposition (NDP), respectively, organize around. The Liberal Party of Canada (LPC) which uses the hashtag \#LPC, while still a major political party in Canada, was not included because we felt adding a less popular third party would not serve to better answer our research questions. Further, at the time of data collection the LPC were going through a leadership race which meant that their hashtag was being used for different purposes making it less comparable to the other two parties' hashtags.
+
+Between March 12th and March 26th, 2013, a Twitter Streaming API \footnote{for more information about the particulars about data access on Twitter for researchers, please consult \cite{gaffneypuschmanntwitterandsociety}} connection was established, selecting tweets that matched the hashtags \#CPC and \#NDP in order to create a base index of users of interest. After the period of collection was finished, a network graph was generated where connections between users who followed one another were used as the edges between the nodes, or the individual users in the dataset. Additionally, up to a maximum of 200 recent tweets were collected for every user in the dataset in order to assess their interaction with the rest of the community compared to their general behavior. Table \ref{tab:aggregate_dataset_stats} provides a summary of the number of nodes, edges, and tweets in the two datasets, as well as aggregate network statistics.
+
+Reviewing the datasets, a few outlier users were detected, most notably in the \#CPC dataset. These outliers were detected by reviewing the ``followers\_count'' field of each user's profile -- this field records the total number of people following the account on Twitter. In each of the three cases where a potential outlier was found, it was shown that on all three occasions, the hashtag \#CPC was also being employed by Spanish speaking Twitter users for categorizing content about the Centro de Predicci\'on Clim\'atica, a climate change center -- the content in all three of the tweets concerned a new senior appointment at the institute. They were found to be true outliers, and were stricken from the network.
+
+First, a comparative analysis of popularly cited network metrics was used to assess possible dimensions of influence, and those metrics similarities in defining different dimensions of influence. Several popular network metrics, along with two bespoke metrics employed in this study, were selected for this process. Then, by using a rank correlation coefficient, a quantitative sense can be gained for the degree to which different metrics agree, and in turn, what different dimensions of influence may exist. Table \ref{tab:metric_overview} provides a list of the various network metrics employed in this study, outlines a brief description of their provenance and intended utility, and occasionally, notes about the metrics. 
+
+Of the metrics employed, the majority are standard network analysis metrics employed across various fields, while two, ``Interaction'', and ``Knowledge'', are generated for this research specifically. The interaction metric is a count of how many times a user was mentioned by other users during the two week sampling period. The knowledge metric was designed for this study that aim to provide further insight about influence. To do this, we also created a basic coding schedule and automated content analysis of the past tweets of each individual in the network in order to rank them based on the language use. The assumption we embedded in this content analysis was that those who use specific technical terms were likely to have higher levels of expertise and be portrayed as more knowledgeable. We chose to conduct content analysis in this way because it ensured the end result would be clearly intelligible given a succinct set of terms specific to discussion of politics in Canada. Operationally speaking, this number is the number of times a user posted a tweet in which one or more keywords \footnote{The keywords used were ``HOC'', ``GOC'', ``SenCA'', ``byelxn'', ``roft'', ``cdnleft'', ``p2ca'', and ``QP''} across the tweets they posted within the dataset.
+
+All metrics were run against the two separate datasets, and two standard rank correlation coefficients, Kendall's Tau and Spearman's Rho, were employed in analysing their relationships. The observations made by this study relies primarily on Kendall's Tau, as Spearman's Rho is less directly interpretable and more sensitive to few cases of extreme divergence in rankings, though Spearman's Rho is reported for researchers more familiar with this metric. By employing a non-parametric ranking statistic such as Kendall's Tau, we aim to draw out pairwise comparisons of all metrics employed, and analyse the relative degrees to which these metrics agree (when a high Tau is found), disagree (when a low Tau is found), and when they diverge across the entire set (when a Tau close to 0 is found). Table \ref{tab:cpc_ranks} provides these scores for the \#CPC dataset, while table \ref{tab:ndp_ranks} provides these scores for \#NDP.
+
+Next, of the six measures considered in the quantitative analysis, we selected five for more in-depth qualitative analysis\footnote{The ``followers count'' measure was omitted given that indegree provides similar information which is specific to the particular networks we are interested in}. In order to do this, we conducted a content analysis of the profiles of all accounts found among the top 20 influentials of any of our five chosen measures. We chose the top 20 cut off as it represents a group large enough to provide variety but small enough to conduct meaningful qualitative analysis. Other similar studies have consistently chosen to look at the top 20 or fewer cases when comparing measures in this way CITE. Two coders, both familiar with Canadian politics, were instructed to classify each account based on whether they were media, partisan, activist, commentator/blogger, other notable, or average. Inter-coder reliability was calculated following the guidelines of \cite{lombardsnyderduchbracken}. Cohen's Kappa was: and percent agreement was:.
+
+\subsection{Comparing Rankings}
+
+During the quantitative portion of analysis, we were most interested in whether or not different metrics, all attempting to score users based on their capacity to influence, ranked users in similar ways. By identifying these cases, we hope to further illustrate the distinct dimensions of influence, the metrics that are identifying those dimensions, and theoretical backing for why these metrics behave in such a way.
+
+The ranking statistics bore out similar trends in both the \#CPC and \#NDP networks -- eigenvector centrality and indegree tended to rank highly together, while our knowledge metric and clustering coefficient scores seemed largely unrelated to many other metrics. Measures which ranked highly together suggest that they are either measuring the same thing or they are measuring different things which are similarly ranked. This makes sense when you consider that eigenvector centrality, and indegree are both measures which indicate how central a node is within a network in terms of the inbound connections towards it. If the knowledge metric were to rank highly with these measures, it would suggest that the kind of influence it measures similarly ranks with or is the same underlying construct as eigenvector centrality. This is not the case, and as such qualitative analysis will be required to understand the differences between the measures further. 
+
+It is expected that measures which use interaction with others in the network as their basis for identifying influentials would rank highly together. A possible interpretation of this result is that due to the highly contextualized nature of the network graphs considered, the contextual Interaction count pales in comparison to the global Interaction count, and as a result, the ranking similarity is lost.
+
+In order to get a sense of how extreme difference in rankings provided by each measure are, we considered their absolute range of divergence across all other metrics. Clustering coefficient, knowledge, and interaction counts tended to be of a small range (and tended towards little similarity against other metrics), while eigenvector centrality, and indegree tended to disagree with other metrics more widely. The general interpretation of this trend is that eigenvector centrality and indegree rank nodes dissimilarly with respect to some other metrics, and those disagreements are quite strong. For other metrics, smaller ranges are indicative of less agreement, while smaller maxima and minima for those ranges express increasing distinction of those metrics against others (and potentially, vastly different dimensions of influence). For a review of these metrics please consult tables \ref{tab:cpc_ranges} and \ref{tab:ndp_ranges}.
+
+Context is important. Of the metrics employed, one was, in effect, a global metric of influence -- a metric that would stay constant in any analysis including those users across any network. When considering its ranking against metrics that are not global in nature (that is, all other metrics which only consider the contextualized \#CPC and \#NDP networks at hand), the Kendall's Tau metric reported low rank correlation coefficients consistently. In light of this, we reason that from this analysis that global scores of influence tend to lose their power in cases where the field of users in a given study is contextualized, and expressly omits users outside of the community.
+
+\subsection{Identifying Influential Political Players}
+
+We have discussed quantitatively the relationship between these various measures noting that they do not identify influentials in the same order but that some tend to agree more than others. The question is, are these differences ones that actually make a difference? Our qualitative analysis suggests yes, that different measures identify different kinds of political players.
+
+In-degree has been the most basic measure of influence used across scholarship. However, \cite{Cha} note that it is a better measure of popularity than actual influence. The core assumption is that the most important part of the influence process is having a large following. Eigenvector centrality takes this concept a step further and says it is a matter of having a large following of those who also have a large following \cite{ShammaKennedyChurchill2009}.
+
+Not surprisingly then, the highest ranked 20 in each list in both cases was populated almost entirely by media outlets, journalists, and politicians. The only exceptions were @iancapstick, a former communications director for the NDP who appeared in both indegree and eigenvector centrality lists for the NDP, @stephen\_taylor who is a well known CPC blogger who appeared in the \#CPC indegree list, and @leadnowca which is an activist group appearing in the indegree \#CPC list.
+
+Thinking about the \#CPC and \#NDP Twitter communities as opportunities for getting news, it is not surprising the most central accounts are those of journalists and politicians, as they are typically the ones with the most access to political happenings. These accounts are most likely to send out first hand and/or very reliable information and they are accounts with a professional reputation to incite trust. The general public are interested in who they are and what they say and so too are others who form the political and media elite.
+
+The question becomes, are these the individuals who are actually most able to convince others to change their minds? The political elite are important and powerful players in political discussion, to be sure, but are the the only one? These elite are not necessarily the influentials most able to convince others to change opinions and to lead political discussions.
+
+Content based rankings offer an alternative route to network structure definitions. Though three quarters of the top 20 most mentioned users were media and politicians, the overlap in which media and which politicians was not perfect. For example, @NSNDP, a twitter feed run by the Nova Scotia New Democrats was number six most mentioned in the \#NDP network but was not found to be among the 20 most influentials by any other metric. Similarly, Liberal Leadership candidates @JoyceMurray and @MHallFindaly were both among the most mentioned in each network, yet neither appeared influential by any other measure. It is not surprising that, in terms of follower ties these two politicians are not found to be central as they are both members of the third party in Canada which uses the hashtag \#LPC. They were likely being talked about because they were running for leadership of a major political party and they probably used the \#CPC and \#NDP hashtags because they wanted to access other politically inclined Canadians.
+
+Next, we consider keyword ranking, what we have called Knowledge. Just under half of the most highly ranked accounts were deemed to be average users with a mix of politicians, parties, journalists, and bloggers making up the rest of the list. Interestingly, it is in this list that we see the prominence of political staffers for the first time. The staffers in both the CPC and NDP list are all affiliated with the \#NDP dataset. This is likely a result of the NDP's communication strategy where those within the party are prompted to provide the public with consistent language, language our coding scheme has picked up. In terms of measuring influence, this example highlights a weakness and a strength. On the one hand, the difficulties researchers face using content analysis remain relevant. Though we increased reliability and validity by testing our coding schedule multiple times CITE and using a random sample of actual data to develop codes CITE, it remains possible results were skewed in favor of certain groups of individuals, in this case possibly NDP staff. If, for example, the CPC strategy was to avoid discussion of the Senate while the NDP were heavily pushing for Senate discussion, then the term we identified as a non-partisan indicator of political awareness could become a political hot topic. Considering the \#CPC network alone, it is possible that an NDP staffer using the \#CPC hashtag may not have many followers within the network but does meet our requirements for language use. Since our coding schedule could have favored the NDP language over CPC language that staffer may be identified as more influential than someone else who may actually have more pull within the \#CPC community. Consulting news coverage over our sampling period, there were no major indicators of such situations but an exhaustive analysis of non-Twitter based content is beyond the scope of this paper. Such analysis is not required for our basic comparison of measures particularly since qualitative analysis is able to contextualize our findings.
+
+However, this methodological worry can also be used to our advantage. For example, \cite{Gentzkow2010}, compile a coding schedule based on the language of partisans in the US Senate and use it to classify journalists as left and right leaning. Creating measures of influence specific to certain communities offers the opportunity engage with that community in a deeper way by considering not just who has the largest potential audience or even active audience, but what they are saying and how it may be received.
+
+Looking to the clustering coefficient ranking, almost every highly ranked user was considered an ``average account'', yet average users only appeared once or twice among the top 20 most highly ranked for all other metrics. It is notable that far more than 20 accounts have clustering coefficients of one which is the top score, our analysis has taken a random sample of the top users. That said, not one user ranked within the top 20 on any metric has a clustering coefficient of one, the highest score being found among the top ranked given Knowledge at approximately 0.6 in both the \#CPC and \#NDP networks. Thinking about what a clustering coefficient of one means, that every follower a user is connected to also follows every other of those followers, this is not that surprising. Unless you follow only very few other users, it is hard to achieve a perfectly connected neighbourhood. 
+
+What this meant within the \#CPC and \#NDP networks is that users with very small local communities who did not follow politicians, journalists, or other very visible influentials, made up the vast majority of users with a clustering coefficient of one. As soon as a user follows a very visible account, for example a journalist, their clustering coefficient diminishes unless that journalist happens to be connected to everyone else the user is connected to. This is unlikely because political elites, like journalists, do not tend to follow many non-elite and so either the user follows only journalists who also follow each other, or the clustering coefficient is not one. The alternative route to a fully connected neighbourhood, assuming an undirected graph, would be for all of the users connections to follow that same journalist. This, however, presents a theoretical challenge because it is assumed that influentials will have some form of access to information with which to develop opinion and then influence others who do not access that information \cite{katzlazarsfeld}. Put simply, local influencers (like opinion leaders in Two-Step Flow work) are expected to follow elites. As such, the clustering coefficient of  the broad network is not optimal for identifying influentials, whether they are the very visible political elite or the local influencers who are embedded in a community.
+
+In our comparison of measures, we have noted that traditional measures of centrality tend to agree on how to rank influencers. These network wide measures have identified political elite like politicians, media outlets, and journalists. Measures of interaction and other content based metrics also identify some of these elite but also help identify influential political commentators and bloggers. Though the clustering coefficient as applied to the full network did not identify individuals who appear likely to be influential, this does not mean position in one's local network or even clustering coefficient are inconsequential. Given the theoretical importance of one's close personal ties and placement within a community, the following section investigates the potential use of the clustering coefficient further.
+
+\subsection{The local context}
+
+Given the description above of how the clustering coefficient is calculated and what this practically means for users following very visible accounts, and since the following of visible accounts is crucial for potential local influencers, we reason as follows: Those most likely to be local influencers will have lower clustering coefficients within the wider network because they follow very visible influentials. In other words, their clustering coefficients will be artificially low. Should those very visible influentials be removed, the clustering coefficients of those likely to be local influencers will increase. Those users whose clustering coefficient increases the most are most likely to be locally influential because they are users who have both access to information and are well positioned to disseminate that information to their local network. 
+
+We tested this logic by removing very visible users and creating a derivative network. We chose to remove nodes based on whether their eigenvector centrality score was at or above the elbow of the distribution of all eigenvector centrality scores within the network. Eigenvector centrality was selected because while indegree may remove most popular users, eigenvector centrality will remove popular users within the network who are in turn followed by popular users. In effect, this preferentially removes users who are followed by likely candidates for opinion leadership, as the exact nodes who are following these users is taken into the calculation of eigenvector centrality. The elbow of the distribution of eigenvector centrality values was selected as the point at which to isolate these users as it provides a readily interpretable cutoff point, and is based on the dataset itself rather than an arbitrary figure.
+
+A qualitative analysis of the 20 users whose clustering coefficient increased the most supports our reasoning. Expectedly, no users were political elite, though some bloggers and small organizations were included. The next step is to differentiate between average users who are likely to be influential and those less likely. Posting political content, mentioning political elite, and having political conversations were all considered positive indicators of influence and was consistently found among this top 20 list whereas it was not for the network wide clustering coefficient top 20 list.
+
+While this is a promising finding, there are a few important points to consider. First, the clustering coefficient applied to the derivative network still favours users with small neighbourhoods. While they may be well positioned to influence locally, that locale may be quite small. Therefore it may make sense to set a minimum indegree level as other studies of influence on Twitter have done. Second, just because clustering coefficient increases it does not mean the new clustering coefficient is high. In our case this was not an issue as all but three of our top 20 in the \#CPC and NUMBER in the \#NDP derivative networks were one, the others all above NUMBER, but in another network it could be different. Third, those with already high clustering coefficients are less likely to be found in the list of users who increased the most even if they have a high or perfect score in the derivative network. Theoretically, and given evidence in this case, this is justified because those with the highest original scores tend to be those who are not connected to elite players and do not access political information. That said, depending on the specific network it is possible that users which occupy a middle ground could be ranked lower than is appropriate.
+
+In short, the utility of the clustering coefficient for identifying local influentials is contextualized. It is the case with all the measures of influence we have used in this study that specific assumptions are embedded in the operationalization of each measure. These assumptions have been justified based on theory and tested by considering users who are deemed influential qualitatively.
+
+\section{DISCUSSION}
+
+In most measures of influence, the core assumptions have to do with who follows a given user and how often they talk about that user. Presence is important, one cannot lead if they have no followers. However, other aspects of influence are routinely ignored. The need to be connected to those in whom trust is invested, the importance of interpersonal interaction and personal connection, and the role of expertise and knowledge are all factors deemed theoretically relevant to the process of influencing someone. It is not that having a following and being trusted, knowledgeable, and socially connected are in opposition, rather it is a matter of placing more theoretical and operational importance on some aspects over others. While decisions must be made, using measures of influence out of context could lead to confusing or inaccurate results.
+
+For example, we might gather from their professions that the journalists and politicians who top most measures of influence, particularly the standard measures of centrality most common to studies in this area, are in fact trusted as experts. It is a far cry to also assume they fulfill the need for close personal ties to help interpret information and actually do the hard work of convincing someone to change their attitude, opinion, or behaviour. 
+
+By ignoring certain facets of what makes an individual influential on a given topic or by attempting to assign influence regardless of topic or social connections, those who actually hold the most influence in a certain community may be drowned out by others who are well placed in other communities or globally popular.
+
+Another interesting question is raised when we consider the example of  Liberal leadership candidates within the \#CPC and \#NDP networks. Two candidates ranked as highly influential according to the number of times they were mentioned in both the \#CPC and \#NDP networks without appearing in any of the other lists of most influential. 
+
+Is interaction with certain individuals or position within a wider community more telling of a user's capacity to influence? Put differently, when we talk about a given ``political community'' is it those who are most active only, or also those who may passively exist within its bounds we are discussing? 
+
+From the perspective of the Two-Step Flow Hypothesis, if we think only of those who actively engage we are already limiting ourselves to likely opinion leaders and public figures, both of which have been described as ``influentials'' \cite{katzlazarsfeld}. We necessarily eliminate those most likely to be primarily followers. With this the theoretical context shifts. Since we rank people in terms of influence the top bracket retain their title as influential but with the bottom bracket eliminated, the middle group become the ``followers'' and their type of influence is lost. ``Influential'' becomes a simpler concept which can be useful, but it also means we then lack clarity concerning the complexity of the social process that is influence.
+
+That said, it is not theoretically sufficient to take the list of users ranked by interaction and assign the top portion the title public influential, bottom portion opinion leader, and any user not on the list follower. The notion of opinion leadership was seminal in the field of media studies and political communication because it connected theories of community and group dynamics to theories of mass media and political messaging. Social support and social pressure, applied by the opinion leader on his or her ``every-day associates'' -- core social group, were the main mechanisms by which influence happened. Opinions changed when someone in a close-knit social group payed attention to a mass message and then used their position within that small group to personally influence the other members. 
+
+By this description interaction within a network is indeed important, and having some following is a necessity, but structural position within one's local network is also important. It is this final aspect the majority of influence metrics overlook and the point which our analysis using the clustering coefficient speaks to most clearly.
+
+Importantly, we are not advocating for the clustering coefficient as a stand-alone measure of influence. As STUDIES note, it is a useful addition to the a repertoire of influence measures. Indeed, we believe no single measure we have assessed in this paper is sufficient for identifying the range of different kinds of influentials found within a political discussion network on Twitter. That is because influence is a contextualized phenomenon and measuring how influential a communicator is presupposes an ability to isolate the components of influence and weigh them accurately within that context. The reason some of our measures varied so greatly is that the components of influence isolated are very different. Clear understandings of what these measures qualitatively represent can be used to help guide theory development and influential identification.
+
+In sum, our study has used multiple measures of influence in order to identify the most influential members of the \#CPC and \#NDP Twitter communities. We have found that in terms of network placement, political elites such as media outlets, journalists, and politicians are most influential in each network. When interaction and content is considered both at the network level and globally, political elite remain prominent but political commentators and bloggers are integrated into the lists of most influential. Finally, considering how socially embedded a user is within their local neighbourhood, we are able to identify likely opinion leaders. 
+
+Though specific to our case, we believe these results are instructive for future studies of influence on Twitter and potentially other online social networking sites. As the ease with which we can trace interactions among people increases, we need to remain aware of how operational definitions can impact the theoretical context of our research.
+
+\begin{table}[position specifier]
+  \centering
+  \begin{tabular}{| p{2cm} | p{6cm} | p{6cm} |}
+    \hline
+    Metric & Description & Papers Using this metric \\ \hline
+    In-degree & The number of nodes with a directed edge pointing towards the given node This can be thought of as a contextualized count of followers, a metric typically understood to confer influence. & \cite{ChaHaddadiBenevenutoGummadi2010, JavaSongFininTseng2007, RomeroKleinberg2010} \\ \hline
+    Followers Count & The total number of users following this account on Twitter - the global in-degree of the node across Twitter. & \cite{MendoaPobleteCastillo2010, KwakLeeParkMoon2010, WuHofmanMasonWatts2011} \\ \hline
+    Eigenvector Centrality & Inspiration for Google’s PageRank algorithm, the metric was developed by Bonacich \citeyear{Bonacich1972} to quantify influence in a network. & \cite{WeitzelQuaresmadeOliveira2012, BigonhaCardosoMoroAlmeidaGoncalves2010} \\ \hline
+    Clustering Coefficient & The clustering coefficient is a metric conferring the degree to which a given node is embedded within a tightly bound set of other nodes. Algorithm Employed is \cite{Latapy2008} & \cite{LermanGhosh2011, JavaSongFininTseng2007} \\ \hline
+    Knowledge & The number of tweets a user posts containing context-specific terms divided by the number of tweets in the sample Terms derived from random sample of tweets collected during sampling period from both networks. & Derived in this work \\ \hline
+    Interaction & The total number of times all other users mentioned the given user within the dataset & Derived in this work \\ \hline
+    \hline
+  \end{tabular}
+  \caption{Metric Overview}
+  \label{tab:metric_overview}
+\end{table}
+
+\begin{table}[position specifier]
+  \centering
+  \begin{tabular}{| l | l | l |}
+    \hline
+    Metric & \#CPC & \#NDP \\ \hline
+    Users (nodes) & 3,860 & 3,536 \\ \hline
+    Friendships (edges) & 163,506 & 144,658 \\ \hline
+    Statuses (tweets) & 730,562 & 653,989 \\ \hline
+    Average In-degree & 42.359 & 40.91 \\ \hline
+    Maximum In-degree & 1,428 & 1,309 \\ \hline
+    Global Clustering Coefficient & 0.295 & 0.285 \\ \hline
+    \hline
+  \end{tabular}
+  \caption{Aggregate Statistics for \#CPC and \#NDP datasets}
+  \label{tab:aggregate_dataset_stats}
+\end{table}
+
+\begin{table}[position specifier]
+  \centering
+  \begin{tabular}{| l | l | l |}
+    \hline
+    Metric & \#CPC & \#NDP \\ \hline
+    Users (nodes) & 3,459 & 3,159 \\ \hline
+    Friendships (edges) & 36,951 & 34,501 \\ \hline
+    Statuses (tweets) & 647,908 & 578,000 \\ \hline
+    Average In-degree & 10.683 & 10.921 \\ \hline
+    Maximum In-degree & 157 & 162 \\ \hline
+    Global Clustering Coefficient & 0.169 & 0.166 \\ \hline
+    \hline
+  \end{tabular}
+  \caption{Aggregate Statistics for \#CPC and \#NDP dataset, excluding top by eigenvector centrality}
+  \label{tab:aggregate_dataset_stats_exclude_eigenvector}
+\end{table}
+
+\begin{landscape}
+
+  \begin{table}[position specifier]\footnotesize
+    \centering
+    \begin{tabular}{| l | l | l | l | l | l | l |}
+      \hline
+      & & \multicolumn{2}{c |}{Full Network} & \multicolumn{2}{c|}{\begin{tabular}[x]{@{}c@{}}Network excluding top elbow\\ by eigenvector centrality\end{tabular}} & \\ \hline
+      First Metric & Paired Metric & Kendall's $\tau$ & Spearman's $\rho$ & Kendall's $\tau$ & Spearman's $\rho$ & $\Delta$($\tau$) \\ \hline
+      Indegree & Eigenvector Centrality & 0.8568 & 0.9757 & 0.6825 & 0.8744 & 0.0676 \\ \hline
+      Indegree & Interaction Count & 0.4933 & 0.6799 & 0.4528 & 0.6399 & 0.04 \\ \hline
+      Indegree & Followers Count & 0.4382 & 0.6039 & 0.3795 & 0.5416 & 0.0498 \\ \hline
+      Eigenvector Centrality & Interaction Count & 0.4355 & 0.609 & 0.3466 & 0.5007 & 0.0593 \\ \hline
+      Followers Count & Interaction Count & 0.3852 & 0.5407 & 0.3115 & 0.4467 & 0.074 \\ \hline
+      Followers Count & Eigenvector Centrality & 0.3922 & 0.5448 & 0.2978 & 0.4273 & 0.0808 \\ \hline
+      Eigenvector Centrality & Knowledge & 0.2431 & 0.4457 & 0.1989 & 0.388 & 0.0638 \\ \hline
+      Indegree & Knowledge & 0.2314 & 0.425 & 0.1608 & 0.3149 & 0.0674 \\ \hline
+      Indegree & Clustering Coefficient & -0.0137 & 0.0782 & 0.1223 & 0.2165 & -0.1208 \\ \hline
+      Clustering Coefficient & Interaction Count & -0.0642 & -0.0658 & 0.0844 & 0.1311 & -0.138 \\ \hline
+      Knowledge & Interaction Count & 0.1369 & 0.2539 & 0.08 & 0.1565 & -0.1505 \\ \hline
+      Clustering Coefficient & Knowledge & 0.0551 & 0.1056 & 0.0515 & 0.1008 & 0.0537 \\ \hline
+      Eigenvector Centrality & Clustering Coefficient & 0.0155 & 0.1108 & 0.0395 & 0.1358 & 0.0059 \\ \hline
+      Followers Count & Knowledge & 0.0582 & 0.1075 & -0.0048 & -0.0096 & 0.0605 \\ \hline
+      Followers Count & Clustering Coefficient & -0.1647 & -0.2081 & -0.0187 & -0.0197 & -0.1476 \\ \hline
+      \hline
+    \end{tabular}
+    \caption{\#CPC Kendall’s $\tau$ and Spearman’s $\rho$ Ranks}
+    \label{tab:cpc_ranks}
+  \end{table}
+  
+  \begin{table}[position specifier]\footnotesize
+    \centering
+    \begin{tabular}{| l | l | l | l | l | l | l |}
+      \hline
+      & & \multicolumn{2}{c |}{Full Network} & \multicolumn{2}{c|}{\begin{tabular}[x]{@{}c@{}}Network excluding top elbow\\ by eigenvector centrality\end{tabular}} & \\ \hline
+      First Metric & Paired Metric & Kendall's $\tau$ & Spearman's $\rho$ & Kendall's $\tau$ & Spearman's $\rho$ & $\Delta$($\tau$) \\ \hline
+      Indegree & Eigenvector Centrality & 0.7968 & 0.9605 & 0.8518 & 0.9763 & -0.055 \\ \hline
+      Indegree & Interaction Count & 0.476 & 0.6665 & 0.5182 & 0.7087 & -0.0422 \\ \hline
+      Eigenvector Centrality & Interaction Count & 0.4246 & 0.6029 & 0.4599 & 0.6428 & -0.0353 \\ \hline
+      Indegree & Followers Count & 0.4171 & 0.5907 & 0.4771 & 0.6553 & -0.06 \\ \hline
+      Followers Count & Eigenvector Centrality & 0.3758 & 0.5387 & 0.4402 & 0.6111 & -0.0644 \\ \hline
+      Followers Count & Interaction Count & 0.3474 & 0.5002 & 0.4187 & 0.5873 & -0.0713 \\ \hline
+      Eigenvector Centrality & Knowledge & 0.1502 & 0.3007 & 0.2355 & 0.4365 & -0.0853 \\ \hline
+      Eigenvector Centrality & Clustering Coefficient & 0.1482 & 0.2396 & 0.0625 & 0.1548 & 0.0857 \\ \hline
+      Indegree & Knowledge & 0.1446 & 0.2894 & 0.2189 & 0.4067 & -0.0743 \\ \hline
+      Indegree & Clustering Coefficient & 0.1219 & 0.2124 & 0.0191 & 0.1059 & 0.1028 \\ \hline
+      Clustering Coefficient & Interaction Count & 0.0738 & 0.1138 & -0.0618 & -0.0628 & 0.1356 \\ \hline
+      Knowledge & Interaction Count & 0.0678 & 0.1354 & 0.1219 & 0.2283 & -0.0541 \\ \hline
+      Clustering Coefficient & Knowledge & 0.0373 & 0.075 & 0.0786 & 0.1478 & -0.0413 \\ \hline
+      Followers Count & Knowledge & 0.0136 & 0.0286 & 0.0707 & 0.1322 & -0.0571 \\ \hline
+      Followers Count & Clustering Coefficient & -0.0043 & 0.005 & -0.1487 & -0.1707 & 0.1444 \\ \hline
+      \hline
+    \end{tabular}
+    \caption{\#NDP Kendall’s $\tau$ and Spearman’s $\rho$ Ranks}
+    \label{tab:ndp_ranks}
+  \end{table}
+  
+\end{landscape}
+
+
+\begin{table}[position specifier]\footnotesize
+  \centering
+  \begin{tabular}{| l | l | l | l |}
+    \hline
+      Metric & Maximum Rank Correlation & Minimum Rank Correlation & Range \\ \hline
+      Eigenvector Centrality & 0.7881 & 0.1325 & 0.6556 \\ \hline
+      Indegree & 0.7881 & 0.119 & 0.6691 \\ \hline
+      Followers Count & 0.6205 & -0.0235 & 0.644 \\ \hline
+      Kred Influence & 0.6205 & -0.0287 & 0.6492 \\ \hline
+      Klout Score & 0.5821 & 0.0003 & 0.5818 \\ \hline
+      Interaction Count & 0.4185 & 0.072 & 0.3465 \\ \hline
+      Clustering Coefficient & 0.1325 & -0.026 & 0.1585 \\ \hline
+      Knowledge & 0.1714 & -0.0287 & 0.2001 \\ \hline
+    \hline
+  \end{tabular}
+  \caption{Range of Kendall's $\tau$ for metrics in comparison to all others in \#CPC Dataset}
+  \label{tab:cpc_ranges}
+\end{table}
+
+
+\begin{table}[position specifier]\footnotesize
+  \centering
+  \begin{tabular}{| l | l | l | l |}
+    \hline
+      Metric & Maximum Rank Correlation & Minimum Rank Correlation & Range \\ \hline
+      Eigenvector Centrality & 0.7968 & 0.1482 & 0.6486 \\ \hline
+      Indegree & 0.7968 & 0.1219 & 0.6749 \\ \hline
+      Followers Count & 0.5956 & -0.0043 & 0.5999 \\ \hline
+      Kred Influence & 0.6173 & -0.0059 & 0.6232 \\ \hline
+      Klout Score & 0.6173 & 0.0167 & 0.6006 \\ \hline
+      Interaction Count & 0.476 & 0.0678 & 0.4082 \\ \hline
+      Clustering Coefficient & 0.1325 & -0.0043 & 0.1368 \\ \hline
+      Knowledge & 0.1714 & -0.0059 & 0.1773 \\ \hline
+      
+    \hline
+  \end{tabular}
+  \caption{Range of Kendall's $\tau$ for metrics in comparison to all others in \#NDP Dataset}
+  \label{tab:ndp_ranges}
+\end{table}
+
+\bibliography{biblio}
+\end{document}

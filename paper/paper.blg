@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=5001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: biblio.bib
+Warning--I didn't find a database entry for "Blumler2001"
+Warning--I didn't find a database entry for "dahlgren00"
+Warning--I didn't find a database entry for "dahlgren05"
+Warning--I didn't find a database entry for "hindman"
+Warning--I didn't find a database entry for "agre"
+Warning--I didn't find a database entry for "rogers4th"
+Warning--I didn't find a database entry for "katzlazarsfeld"
+Warning--I didn't find a database entry for "Eveland2011"
+Warning--I didn't find a database entry for "Bakshy"
+Warning--I didn't find a database entry for "Watts2007"
+Warning--I didn't find a database entry for "Ye2010"
+Warning--I didn't find a database entry for "Chadwick2011"
+Warning--I didn't find a database entry for "katz"
+Warning--I didn't find a database entry for "sharawneh2013"
+Warning--I didn't find a database entry for "gruzdwellmantakhteyev"
+Warning--I didn't find a database entry for "Bigonha2011"
+Warning--I didn't find a database entry for "Sousa"
+Warning--I didn't find a database entry for "Cha"
+Warning--I didn't find a database entry for "gaffneypuschmanntwitterandsociety"
+Warning--I didn't find a database entry for "lombardsnyderduchbracken"
+Warning--I didn't find a database entry for "Gentzkow2010"
+apacite.bst [2009/03/01 v4.05 APA bibliography style]
+Warning--No publisher in BigonhaCardosoMoroAlmeidaGoncalves2010
+Warning--No address in BigonhaCardosoMoroAlmeidaGoncalves2010
+Warning--No publisher in ChaHaddadiBenevenutoGummadi2010
+Warning--No address in ChaHaddadiBenevenutoGummadi2010
+Warning--No publisher in LermanGhosh2011
+Warning--No address in LermanGhosh2011
+Warning--No publisher in RomeroKleinberg2010
+Warning--No address in RomeroKleinberg2010
+You've used 12 entries,
+            6361 wiz_defined-function locations,
+            1304 strings with 13245 characters,
+and the built_in function-call counts, 26735 in all, are:
+= -- 3482
+> -- 256
+< -- 1170
++ -- 1230
+- -- 24
+* -- 1654
+:= -- 4441
+add.period$ -- 68
+call.type$ -- 12
+change.case$ -- 72
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 722
+empty$ -- 1004
+format.name$ -- 386
+if$ -- 5204
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 0
+newline$ -- 333
+num.names$ -- 96
+pop$ -- 687
+preamble$ -- 1
+purify$ -- 50
+quote$ -- 0
+skip$ -- 1697
+stack$ -- 0
+substring$ -- 1395
+swap$ -- 448
+text.length$ -- 65
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1600
+warning$ -- 8
+while$ -- 141
+width$ -- 0
+write$ -- 432
+(There were 29 warnings)
