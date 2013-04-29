@@ -1,6 +1,9 @@
 clear
 run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
 insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc_nodes_nearly_done.csv
+clear
+run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
+insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc_new_nodes_extracted.csv
 *statuses_count followers_count friends_count listed_count favourites_count klout_score kred_influence kred_outreach 
 *indegree eccentricity closnesscentrality betweenesscentrality eigencentrality newClusteringCoefficient clustering 
 *pageranks authority hub modularity_class 
@@ -80,5 +83,8 @@ spearman indegree klout_score kred_influence authority closnesscentrality betwee
 clear
 run "/Users/dgaffney/Desktop/Life/Work/Academics/Oxford/Hilary/Quant/Week 2/lowessmat.ado"
 insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc_nodes_with_new_clustering.csv
-ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
-spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering final_term_score interaction_count
+ktau indegree followers_count eigencentrality clustering knowledge_count interaction_count
+spearman indegree followers_count eigencentrality clustering knowledge_count interaction_count
+ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering knowledge_count interaction_count
+spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering knowledge_count interaction_count
+[90227660,146087611,87769317]
