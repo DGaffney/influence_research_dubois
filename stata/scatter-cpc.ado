@@ -88,3 +88,13 @@ spearman indegree followers_count eigencentrality clustering knowledge_count int
 ktau indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering knowledge_count interaction_count
 spearman indegree klout_score kred_influence authority closnesscentrality betweenesscentrality statuses_count followers_count eigencentrality clustering knowledge_count interaction_count
 [90227660,146087611,87769317]
+
+
+clear
+insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc/cpc.csv
+ktau indegree followers_count eigencentrality clustering knowledge interaction_count
+spearman indegree followers_count eigencentrality clustering knowledge interaction_count
+clear
+insheet using ~/Desktop/Life/Work/Publications/influence_research_dubois/data/csv/cpc/cpc_eigen_removed.csv
+ktau indegree followers_count eigencentrality clustering knowledge interaction_count
+spearman indegree followers_count eigencentrality clustering knowledge interaction_count

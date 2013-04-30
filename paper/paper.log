@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2011.7.3)  28 APR 2013 20:32
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2011.7.3)  29 APR 2013 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,27 +331,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
-
-LaTeX Warning: Citation `Blumler2001' undefined on input line 41.
-
-
-LaTeX Warning: Citation `dahlgren00' undefined on input line 41.
-
-
-LaTeX Warning: Citation `dahlgren05' undefined on input line 41.
-
-
-LaTeX Warning: Citation `hindman' undefined on input line 41.
-
-
-LaTeX Warning: Citation `agre' undefined on input line 41.
-
-
-LaTeX Warning: Citation `rogers4th' undefined on input line 43.
-
-
-LaTeX Warning: Citation `katzlazarsfeld' undefined on input line 43.
-
 [1
 
 ]
@@ -363,33 +342,12 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
 
-LaTeX Warning: Citation `Eveland2011' undefined on input line 55.
-
-
-LaTeX Warning: Citation `Bakshy' undefined on input line 57.
-
-
-LaTeX Warning: Citation `Watts2007' undefined on input line 57.
-
-
-LaTeX Warning: Citation `Ye2010' undefined on input line 57.
-
-
-LaTeX Warning: Citation `Chadwick2011' undefined on input line 59.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [2]
-
-LaTeX Warning: Citation `katz' undefined on input line 65.
-
-
-LaTeX Warning: Citation `sharawneh2013' undefined on input line 73.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -398,37 +356,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
-LaTeX Warning: Citation `gruzdwellmantakhteyev' undefined on input line 75.
-
-
-LaTeX Warning: Citation `Bigonha2011' undefined on input line 77.
-
-
-LaTeX Warning: Citation `Sousa' undefined on input line 77.
-
-
-LaTeX Warning: Citation `Cha' undefined on input line 95.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 101.
-
-
-LaTeX Warning: Citation `gaffneypuschmanntwitterandsociety' undefined on input 
-line 101.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -436,9 +369,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-
-LaTeX Warning: Citation `lombardsnyderduchbracken' undefined on input line 111.
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 92.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -462,9 +400,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Warning: Citation `Gentzkow2010' undefined on input line 141.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -485,43 +420,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-Underfull \hbox (badness 2726) in paragraph at lines 190--190
-\OT1/cmr/m/n/12 Gum-madi, 2010; Java, Song,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\OT1/cmr/m/n/12 Followers
- []
-
-
-Overfull \hbox (2.98416pt too wide) in paragraph at lines 192--192
-[]|\OT1/cmr/m/n/12 Eigenvector
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]|\OT1/cmr/m/n/12 Clustering
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 193--193
-[]|\OT1/cmr/m/n/12 The clus-ter-ing co-ef-fi-cient is a
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 194--194
-[]|\OT1/cmr/m/n/12 The num-ber of tweets a user
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 194--194
-\OT1/cmr/m/n/12 terms di-vided by the num-ber
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -543,30 +441,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+Underfull \hbox (badness 2726) in paragraph at lines 199--199
+\OT1/cmr/m/n/12 Song, Finin, & Tseng, 2007;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\OT1/cmr/m/n/12 Followers
+ []
+
+
+Overfull \hbox (2.98416pt too wide) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/12 Eigenvector
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 201--201
+\OT1/cmr/m/n/12 Car-doso, Moro, Almeida, &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/12 Clustering
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/12 The clus-ter-ing co-ef-fi-cient is a
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/12 The num-ber of tweets a user
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 203--203
+\OT1/cmr/m/n/12 terms di-vided by the num-ber
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -574,10 +493,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15] (./paper.bbl
-Missing character: There is no ‚ in font cmti12!
-Missing character: There is no Ä in font cmti12!
-Missing character: There is no ô in font cmti12!
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19] (./paper.bbl
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+./paper.bbl:398: Misplaced alignment tab character &.
+<argument> Information, Communication &
+                                        Society
+l.398 ...ion, Communication & Society}{7}{1}{1-22}
+                                                  .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -585,28 +543,87 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16
+[20
 
 
-])
+
+
+]
+
+LaTeX Warning: Command \c invalid in math mode on input line 564.
+
+./paper.bbl:564: Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.564   RFEA}{131}{1}{}
+                       .
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 564.
+
+./paper.bbl:564: Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.564   RFEA}{131}{1}{}
+                       .
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./paper.bbl:564: You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.564   RFEA}{131}{1}{}
+                       .
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] (./paper.aux)
+[21]
 
-LaTeX Warning: There were undefined references.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- ) 
+[22]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4418 strings out of 493634
- 66042 string characters out of 3143401
- 162424 words of memory out of 3000000
- 7665 multiletter control sequences out of 15000+200000
+ 4586 strings out of 493634
+ 69157 string characters out of 3143401
+ 163944 words of memory out of 3000000
+ 7833 multiletter control sequences out of 15000+200000
  9017 words of font info for 32 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,14n,43p,2069b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,14n,43p,1432b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (17 pages, 83180 bytes).
+Output written on paper.dvi (25 pages, 114936 bytes).

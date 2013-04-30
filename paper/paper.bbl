@@ -1,6 +1,119 @@
 \begin{thebibliography}{}
 
 \bibitem[\protect\citeauthoryear{%
+Agre%
+}{%
+Agre%
+}{%
+{\protect\APACyear{2002}}%
+}]{%
+agre}%
+\APACinsertmetastar{%
+agre}%
+Agre, P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Real-Time Politics: The Internet and the Political
+  Process}}{{Real-Time Politics: The Internet and the Political
+  Process}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{The Information Society}{18}{5}{311--331}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.tandfonline.com/doi/abs/10.1080/01972240290075174}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Al-sharawneh%
+, Sinnappan%
+\BCBL{}\ \BBA{} Williams%
+}{%
+Al-sharawneh%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
+}]{%
+sharawneh2013}%
+\APACinsertmetastar{%
+sharawneh2013}%
+Al-sharawneh, J.%
+, Sinnappan, S.%
+\BCBL{}\ \BBA{} Williams, M\BHBI a.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Credibility-Based Twitter Social Network
+  Analysis}}{{Credibility-Based Twitter Social Network Analysis}}.\BBCQ{}
+\newblock
+\BIn{} (\BPGS\ 323--331).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Anger%
+\ \BBA{} Kittl%
+}{%
+Anger%
+\ \BBA{} Kittl%
+}{%
+{\protect\APACyear{2011}}%
+}]{%
+Anger2011}%
+\APACinsertmetastar{%
+Anger2011}%
+Anger, I.%
+\BCBT{}\ \BBA{} Kittl, C.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Measuring influence on Twitter}}{{Measuring influence on
+  Twitter}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Proceedings of the 11th International Conference on
+  Knowledge Management and Knowledge Technologies - i-KNOW '11}{}{}{1}.
+\newblock
+ \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?doid=2024288.2024326}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Bakshy%
+, Hofman%
+, Watts%
+\BCBL{}\ \BBA{} Mason%
+}{%
+Bakshy%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+Bakshy}%
+\APACinsertmetastar{%
+Bakshy}%
+Bakshy, E.%
+, Hofman, J\BPBI M.%
+, Watts, D\BPBI J.%
+\BCBL{}\ \BBA{} Mason, W\BPBI A.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Everyone’ s an Influencer: Quantifying Influence on
+  Twitter Categories and Subject Descriptors}}{{Everyone’ s an Influencer:
+  Quantifying Influence on Twitter Categories and Subject Descriptors}}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{WSDM '11 Proceedings of the fourth ACM international
+  conference on Web search and data mining}{Wsdm '11 proceedings of the fourth
+  acm international conference on web search and data mining}\ (\BPGS\ 65--74).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Bigonha%
 , Cardoso%
 , Moro%
@@ -32,6 +145,70 @@ Bigonha, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
+Bigonha%
+, Cardoso%
+, Moro%
+, Gon\c{c}alves%
+\BCBL{}\ \BBA{} Almeida%
+}{%
+Bigonha%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+Bigonha2011}%
+\APACinsertmetastar{%
+Bigonha2011}%
+Bigonha, C.%
+, Cardoso, T\BPBI N\BPBI C.%
+, Moro, M\BPBI M.%
+, Gon\c{c}alves, M\BPBI a.%
+\BCBL{}\ \BBA{} Almeida, V\BPBI a\BPBI F.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{12}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Sentiment-based influence detection on
+  Twitter}}{{Sentiment-based influence detection on Twitter}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of the Brazilian Computer
+  Society}{18}{3}{169--183}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.springerlink.com/index/10.1007/s13173-011-0051-5}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Blumler%
+\ \BBA{} Gurevitch%
+}{%
+Blumler%
+\ \BBA{} Gurevitch%
+}{%
+{\protect\APACyear{2001}}%
+}]{%
+Blumler2001}%
+\APACinsertmetastar{%
+Blumler2001}%
+Blumler, J\BPBI G.%
+\BCBT{}\ \BBA{} Gurevitch, M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{{\APACmonth{01}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{THE NEW MEDIA AND OUR POLITICAL COMMUNICATION
+  DISCONTENTS: DEMOCRATIZING CYBERSPACE}}{{THE NEW MEDIA AND OUR POLITICAL
+  COMMUNICATION DISCONTENTS: DEMOCRATIZING CYBERSPACE}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Information, Communication \& Society}{4}{1}{1--13}.
+\newblock
+ \begin{APACrefURL} \url{http://www.tandfonline.com/doi/abs/10.1080/713768514}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Bonacich%
 }{%
 Bonacich%
@@ -59,34 +236,692 @@ Bonacich, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
-Cha%
-, Haddadi%
-, Benevenuto%
-\BCBL{}\ \BBA{} Gummadi%
+Brosius%
+\ \BBA{} Weimann%
 }{%
-Cha%
-\ \protect\BOthers{.}}{%
+Brosius%
+\ \BBA{} Weimann%
+}{%
+{\protect\APACyear{1996}}%
+}]{%
+brosiusweimann}%
+\APACinsertmetastar{%
+brosiusweimann}%
+Brosius, H\BHBI B.%
+\BCBT{}\ \BBA{} Weimann, G.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{{\APACmonth{10}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Who Sets the Agenda: Agenda-Setting as a Two-Step
+  Flow}}{{Who Sets the Agenda: Agenda-Setting as a Two-Step Flow}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Communication Research}{23}{5}{561--580}.
+\newblock
+ \begin{APACrefURL} \url{http://crx.sagepub.com/content/23/5/561.abstract}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Brown%
+\ \BBA{} Feng%
+}{%
+Brown%
+\ \BBA{} Feng%
+}{%
 {\protect\APACyear{2010}}%
 }]{%
-ChaHaddadiBenevenutoGummadi2010}%
+Brown2010}%
 \APACinsertmetastar{%
-ChaHaddadiBenevenutoGummadi2010}%
-Cha, M.%
-, Haddadi, H.%
-, Benevenuto, F.%
-\BCBL{}\ \BBA{} Gummadi, K\BPBI P.%
+Brown2010}%
+Brown, P\BPBI E.%
+\BCBT{}\ \BBA{} Feng, J.%
 %
 \unskip\
 \newblock
 \APACrefYearMonthDay{2010}{}{}.
 \newblock
-\BBOQ{}\APACrefatitle{Measuring user influence in Twitter: The million follower
-  fallacy}{Measuring user influence in twitter: The million follower
-  fallacy}.\BBCQ{}
+\BBOQ{}\APACrefatitle{{Measuring User Influence on Twitter Using Modified
+  K-Shell Decomposition}}{{Measuring User Influence on Twitter Using Modified
+  K-Shell Decomposition}}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle{in ICWSM ’10: Proceedings of international AAAI
-  Conference on Weblogs and Social.}{in icwsm ’10: Proceedings of
-  international aaai conference on weblogs and social.}
+\BIn{} (\BPGS\ 18--23).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Cha%
+\ \BBA{} Gummadi%
+}{%
+Cha%
+\ \BBA{} Gummadi%
+}{%
+{\protect\APACyear{2010}}%
+}]{%
+Cha}%
+\APACinsertmetastar{%
+Cha}%
+Cha, M.%
+\BCBT{}\ \BBA{} Gummadi, K\BPBI P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Measuring User Influence in Twitter : The Million
+  Follower Fallacy}}{{Measuring User Influence in Twitter : The Million
+  Follower Fallacy}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{}{}{}{10--17}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Chadwick%
+}{%
+Chadwick%
+}{%
+{\protect\APACyear{2011}}%
+}]{%
+Chadwick2011}%
+\APACinsertmetastar{%
+Chadwick2011}%
+Chadwick, A.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{01}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{The Political Information Cycle in a Hybrid News System:
+  The British Prime Minister and the “Bullygate” Affair}}{{The Political
+  Information Cycle in a Hybrid News System: The British Prime Minister and the
+  “Bullygate” Affair}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{The International Journal of
+  Press/Politics}{16}{1}{3--29}.
+\newblock
+ \begin{APACrefURL} \url{http://hij.sagepub.com/content/16/1/3.abstract}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Chang%
+, Wang%
+, Mei%
+, Liu%
+\BCBL{}\ \BBA{} Park%
+}{%
+Chang%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
+}]{%
+Chang}%
+\APACinsertmetastar{%
+Chang}%
+Chang, Y.%
+, Wang, X.%
+, Mei, Q.%
+, Liu, Y.%
+\BCBL{}\ \BBA{} Park, M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Towards Twitter Context Summarization with User
+  Influence Models}}{{Towards Twitter Context Summarization with User Influence
+  Models}}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{sixth ACM international conference on Web search and data
+  mining}{sixth acm international conference on web search and data mining}\
+  (\BPGS\ 527--536).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Coleman%
+}{%
+Coleman%
+}{%
+{\protect\APACyear{2004}}%
+}]{%
+Coleman2004}%
+\APACinsertmetastar{%
+Coleman2004}%
+Coleman, S.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Connecting Parliament to the Public via the
+  Internet}{Connecting parliament to the public via the internet}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Information, Communication & Society}{7}{1}{1-22}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.tandfonline.com/doi/abs/10.1080/1369118042000208870}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Conover%
+, Gon\c{c}alves%
+, Ratkiewicz%
+, Flammini%
+\BCBL{}\ \BBA{} Menczer%
+}{%
+Conover%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+ConoverGoncalvesRakiewiczFlamminiMenczer2011}%
+\APACinsertmetastar{%
+ConoverGoncalvesRakiewiczFlamminiMenczer2011}%
+Conover, M.%
+, Gon\c{c}alves, B.%
+, Ratkiewicz, J.%
+, Flammini, A.%
+\BCBL{}\ \BBA{} Menczer, F.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Predicting the Political Alignment of Twitter
+  Users}{Predicting the political alignment of twitter users}.\BBCQ{}
+\newblock
+ \begin{APACrefURL}
+  \url{http://cnets.indiana.edu/wp-content/uploads/conover_prediction_socialcom_pdfexpress_ok_version.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Dahlgren%
+}{%
+Dahlgren%
+}{%
+{\protect\APACyear{2000}}%
+}]{%
+dahlgren00}%
+\APACinsertmetastar{%
+dahlgren00}%
+Dahlgren, P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{The Internet and the Democratization of Civic
+  Culture}}{{The Internet and the Democratization of Civic Culture}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Political Communication}{17}{4}{335--340}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.tandfonline.com/doi/abs/10.1080/10584600050178933}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Dahlgren%
+}{%
+Dahlgren%
+}{%
+{\protect\APACyear{2005}}%
+}]{%
+dahlgren05}%
+\APACinsertmetastar{%
+dahlgren05}%
+Dahlgren, P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{The Internet, Public Spheres, and Political
+  Communication: Dispersion and Deliberation}}{{The Internet, Public Spheres,
+  and Political Communication: Dispersion and Deliberation}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Political Communication}{22}{2}{147--162}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.tandfonline.com/doi/abs/10.1080/10584600590933160}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+J\BPBI P.~Dillard%
+}{%
+J\BPBI P.~Dillard%
+}{%
+{\protect\APACyear{1989}}%
+}]{%
+Dillard1989}%
+\APACinsertmetastar{%
+Dillard1989}%
+Dillard, J\BPBI P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Types of influence goals in personal
+  relationships}}{{Types of influence goals in personal relationships}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of Social and Personal
+  Relationships}{6}{}{293--308}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+S\BPBI C.~Dillard J.~P.%
+\ \BBA{} Harden%
+}{%
+S\BPBI C.~Dillard J.~P.%
+\ \BBA{} Harden%
+}{%
+{\protect\APACyear{1989}}%
+}]{%
+DillardSegrinHarden1989}%
+\APACinsertmetastar{%
+DillardSegrinHarden1989}%
+Dillard, S\BPBI C., J.~P.%
+\BCBT{}\ \BBA{} Harden, J\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Primary and secondary goals in the production of
+  interpersonal influence messages}}{{Primary and secondary goals in the
+  production of interpersonal influence messages}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Communication Monographs}{56}{}{19--38}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Dubois%
+\ \BBA{} Dutton%
+}{%
+Dubois%
+\ \BBA{} Dutton%
+}{%
+{\protect\APACyear{Forthcoming 2013}}%
+}]{%
+DuboisDutton2013}%
+\APACinsertmetastar{%
+DuboisDutton2013}%
+Dubois, E.%
+\BCBT{}\ \BBA{} Dutton, W\BPBI H.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{Forthcoming 2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{The Fifth Estate in Internet Governance: Collective
+  Accountability of a Canadian Policy Initiative}}{{The Fifth Estate in
+  Internet Governance: Collective Accountability of a Canadian Policy
+  Initiative}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Revue Fran$\c{c}$aise d'Etudes Am$\'e$ricaines
+  RFEA}{131}{1}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Duong%
+}{%
+Duong%
+}{%
+{\protect\APACyear{2012}}%
+}]{%
+comscore}%
+\APACinsertmetastar{%
+comscore}%
+Duong, K.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Canada Digital Future in Focus 2012}}{{Canada Digital
+  Future in Focus 2012}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{comScore}{}{}{}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.comscore.com/2012CanadaDigitalFutureinFocus} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Dutton%
+\ \BBA{} Peltu%
+}{%
+Dutton%
+\ \BBA{} Peltu%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
+DuttonPeltu2007}%
+\APACinsertmetastar{%
+DuttonPeltu2007}%
+Dutton, W\BPBI H.%
+\BCBT{}\ \BBA{} Peltu, M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{The Emerging Internet Governance Mosaic: Connecting the
+  Pieces}}{{The Emerging Internet Governance Mosaic: Connecting the
+  Pieces}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Information Polity}{12}{}{63--81}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Eveland%
+, Morey%
+\BCBL{}\ \BBA{} Hutchens%
+}{%
+Eveland%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+Eveland2011}%
+\APACinsertmetastar{%
+Eveland2011}%
+Eveland, W\BPBI P.%
+, Morey, A\BPBI C.%
+\BCBL{}\ \BBA{} Hutchens, M\BPBI J.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{12}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Beyond Deliberation: New Directions for the Study of
+  Informal Political Conversation from a Communication Perspective}}{{Beyond
+  Deliberation: New Directions for the Study of Informal Political Conversation
+  from a Communication Perspective}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of Communication}{61}{6}{1082--1103}.
+\newblock
+ \begin{APACrefURL} \url{http://doi.wiley.com/10.1111/j.1460-2466.2011.01598.x}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Gaffney%
+}{%
+Gaffney%
+}{%
+{\protect\APACyear{Forthcoming 2013}}%
+}]{%
+GaffneyPushmann2013}%
+\APACinsertmetastar{%
+GaffneyPushmann2013}%
+Gaffney, \BPBI P\BPBI C., D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{Forthcoming 2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Data collection on Twitter}}{{Data collection on
+  Twitter}}.\BBCQ{}
+\newblock
+\BIn{} J\BPBI B\BPBI M\BPBI M\BPBI \BPBI C\BPBI P.~A.~Bruns K.~Weller\ (\BED),
+  \APACrefbtitle{Twitter and Society.}{Twitter and society.}
+\newblock
+\APACaddressPublisher{New York, NY}{Peter Lang}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Gentzkow%
+\ \BBA{} Shapiro%
+}{%
+Gentzkow%
+\ \BBA{} Shapiro%
+}{%
+{\protect\APACyear{2010}}%
+}]{%
+Gentzkow2010}%
+\APACinsertmetastar{%
+Gentzkow2010}%
+Gentzkow, M.%
+\BCBT{}\ \BBA{} Shapiro, J\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{{\APACmonth{01}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{What Drives Media Slant? Evidence From U.S. Daily
+  Newspapers}}{{What Drives Media Slant? Evidence From U.S. Daily
+  Newspapers}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Econometrica}{78}{1}{35--71}.
+\newblock
+ \begin{APACrefURL} \url{http://dx.doi.org/10.3982/ECTA7195} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+L\BPBI W.~Gibson R.~K.%
+\ \BBA{} Ward%
+}{%
+L\BPBI W.~Gibson R.~K.%
+\ \BBA{} Ward%
+}{%
+{\protect\APACyear{2005}}%
+}]{%
+GibsonLusoliWard2005}%
+\APACinsertmetastar{%
+GibsonLusoliWard2005}%
+Gibson, L\BPBI W., R.~K.%
+\BCBT{}\ \BBA{} Ward, S.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Online Participation in the UK: Testing a
+  ``Contextualised'' Model of Internet Effects}}{{Online Participation in the
+  UK: Testing a ``Contextualised'' Model of Internet Effects}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{The British Journal of Politics \& International
+  Relations}{7}{}{561--583}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+R\BPBI K.~Gibson%
+\ \BBA{} Ward%
+}{%
+R\BPBI K.~Gibson%
+\ \BBA{} Ward%
+}{%
+{\protect\APACyear{2002}}%
+}]{%
+GibsonWard2002}%
+\APACinsertmetastar{%
+GibsonWard2002}%
+Gibson, R\BPBI K.%
+\BCBT{}\ \BBA{} Ward, S.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Virtual Campaigning: Australian Parties and the Impact of
+  the Internet}{Virtual campaigning: Australian parties and the impact of the
+  internet}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Australian Journal of Political
+  Science}{37}{1}{99-129}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://www.tandfonline.com/doi/abs/10.1080/13603100220119047}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Gonz\'{a}lez-Bail\'{o}n%
+, Borge-Holthoefer%
+\BCBL{}\ \BBA{} Moreno%
+}{%
+Gonz\'{a}lez-Bail\'{o}n%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2012}}%
+}]{%
+GonzalezBailonBorgeHolthoeferMoreno2012}%
+\APACinsertmetastar{%
+GonzalezBailonBorgeHolthoeferMoreno2012}%
+Gonz\'{a}lez-Bail\'{o}n, S.%
+, Borge-Holthoefer, J.%
+\BCBL{}\ \BBA{} Moreno, Y.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{{\APACmonth{03}}}{8}.
+\newblock
+\BBOQ{}\APACrefatitle{{Broadcasters and Hidden Influentials in Online Protest
+  Diffusion}}{{Broadcasters and Hidden Influentials in Online Protest
+  Diffusion}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{American Behavioral Scientist}{}{}{}.
+\newblock
+ \begin{APACrefURL} \url{http://dx.doi.org/10.2139/ssrn.2017808}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Gruzd%
+, Wellman%
+\BCBL{}\ \BBA{} Takhteyev%
+}{%
+Gruzd%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+gruzdwellmantakhteyev}%
+\APACinsertmetastar{%
+gruzdwellmantakhteyev}%
+Gruzd, A.%
+, Wellman, B.%
+\BCBL{}\ \BBA{} Takhteyev, Y.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Imagining Twitter as an Imagined Community}}{{Imagining
+  Twitter as an Imagined Community}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{American Behavioral Scientist}{55}{10}{1294--1318}.
+\newblock
+ \begin{APACrefURL} \url{http://abs.sagepub.com/content/55/10/1294.abstract}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Hill%
+\ \protect\BOthers{.}}{%
+Hill%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+Hill}%
+\APACinsertmetastar{%
+Hill}%
+Hill, S.%
+, Benton, A.%
+, Ungar, L.%
+, Macskassy, S.%
+, Chung, A.%
+\BCBL{}\ \BBA{} Holmes, J\BPBI H.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{\bibnodate{}}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{A Cluster-based Method for Isolating Influence on
+  Twitter}}{{A Cluster-based Method for Isolating Influence on
+  Twitter}}.\BBCQ{}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Hill%
+, Provost%
+\BCBL{}\ \BBA{} Volinsky%
+}{%
+Hill%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2006}}%
+}]{%
+HillProvostVolinsky2006}%
+\APACinsertmetastar{%
+HillProvostVolinsky2006}%
+Hill, S.%
+, Provost, F.%
+\BCBL{}\ \BBA{} Volinsky, C.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Network-based marketing: Identifying likely adopters via
+  consumer networks}{Network-based marketing: Identifying likely adopters via
+  consumer networks}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Statistical Science}{21}{2}{256--276}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Hindman%
+}{%
+Hindman%
+}{%
+{\protect\APACyear{2009}}%
+}]{%
+hindman}%
+\APACinsertmetastar{%
+hindman}%
+Hindman, M\BPBI S.%
+%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle{{The Myth of Digital Democracy}}{{The Myth of Digital
+  Democracy}}.
+\newblock
+\APACaddressPublisher{Princeton}{Princeton University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Huckfeldt%
+, Sprague%
+, Kuklinski%
+, Wyer%
+\BCBL{}\ \BBA{} Feldman%
+}{%
+Huckfeldt%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{1995}}%
+}]{%
+HuckfeldtSprague1995}%
+\APACinsertmetastar{%
+HuckfeldtSprague1995}%
+Huckfeldt, R\BPBI R.%
+, Sprague, J.%
+, Kuklinski, J\BPBI H.%
+, Wyer, R\BPBI S.%
+\BCBL{}\ \BBA{} Feldman, S.%
+%
+\unskip\
+\newblock
+\APACrefYear{1995}.
+\newblock
+\APACrefbtitle{{Citizens, Politics and Social Communication: Information and
+  Influence in an Election Campaign}}{{Citizens, Politics and Social
+  Communication: Information and Influence in an Election Campaign}}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
@@ -124,6 +959,58 @@ Java, A.%
 \newblock
  \begin{APACrefURL} \url{http://doi.acm.org/10.1145/1348549.1348556}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Katz%
+}{%
+Katz%
+}{%
+{\protect\APACyear{1957}}%
+}]{%
+katz}%
+\APACinsertmetastar{%
+katz}%
+Katz, E.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1957}{{\APACmonth{03}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{The Two-Step Flow of Communication: An Up-To-Date Report
+  on an Hypothesis}}{{The Two-Step Flow of Communication: An Up-To-Date Report
+  on an Hypothesis}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Public Opinion Quarterly}{21}{1}{61--78}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://poq.oxfordjournals.org/content/21/1/61.abstract} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Katz%
+\ \BBA{} Lazarsfeld%
+}{%
+Katz%
+\ \BBA{} Lazarsfeld%
+}{%
+{\protect\APACyear{2006}}%
+}]{%
+katzlazarsfeld}%
+\APACinsertmetastar{%
+katzlazarsfeld}%
+Katz, E.%
+\BCBT{}\ \BBA{} Lazarsfeld, P\BPBI F.%
+%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle{{Personal Influence: The Part Played by People in the Flow of
+  Mass Communications}}{{Personal Influence: The Part Played by People in the
+  Flow of Mass Communications}}.
+\newblock
+\APACaddressPublisher{}{Transaction Publishers}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
@@ -188,6 +1075,40 @@ Latapy, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
+Lee%
+, Kwak%
+, Park%
+\BCBL{}\ \BBA{} Moon%
+}{%
+Lee%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2010}}%
+}]{%
+Lee2010}%
+\APACinsertmetastar{%
+Lee2010}%
+Lee, C.%
+, Kwak, H.%
+, Park, H.%
+\BCBL{}\ \BBA{} Moon, S.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Finding influentials based on the temporal order of
+  information adoption in twitter}}{{Finding influentials based on the temporal
+  order of information adoption in twitter}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Proceedings of the 19th international conference on
+  World wide web - WWW '10}{}{}{1137}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://portal.acm.org/citation.cfm?doid=1772690.1772842}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Lerman%
 \ \BBA{} Ghosh%
 }{%
@@ -214,6 +1135,36 @@ Lerman, K.%
 \BIn{} \APACrefbtitle{Proceedings of 4th International Conference on Weblogs
   and Social Media (ICWSM).}{Proceedings of 4th international conference on
   weblogs and social media (icwsm).}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Lombard%
+, Snyder-Duch%
+\BCBL{}\ \BBA{} Bracken%
+}{%
+Lombard%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2002}}%
+}]{%
+lombardsnyderduchbracken}%
+\APACinsertmetastar{%
+lombardsnyderduchbracken}%
+Lombard, M.%
+, Snyder-Duch, J.%
+\BCBL{}\ \BBA{} Bracken, C\BPBI C.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Content Analysis in Mass Communication: Assessment and
+  Reporting of Intercoder Reliability}}{{Content Analysis in Mass
+  Communication: Assessment and Reporting of Intercoder Reliability}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Human Communication Research}{28}{4}{587--604}.
+\newblock
+ \begin{APACrefURL} \url{http://dx.doi.org/10.1111/j.1468-2958.2002.tb00826.x}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
@@ -250,6 +1201,270 @@ Mendoza, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
+Miles%
+\ \BBA{} Huberman%
+}{%
+Miles%
+\ \BBA{} Huberman%
+}{%
+{\protect\APACyear{1994}}%
+}]{%
+mileshuberman}%
+\APACinsertmetastar{%
+mileshuberman}%
+Miles, M\BPBI B.%
+\BCBT{}\ \BBA{} Huberman, A\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle{{Qualitative Data Analysis: An Expanded
+  Sourcebook}}{{Qualitative Data Analysis: An Expanded Sourcebook}}.
+\newblock
+\APACaddressPublisher{Thousand Oaks}{Sage Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Mutz%
+}{%
+Mutz%
+}{%
+{\protect\APACyear{2006}}%
+}]{%
+Mutz2006}%
+\APACinsertmetastar{%
+Mutz2006}%
+Mutz, D\BPBI C.%
+%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle{{Hearing the other side: Deliberative versus participatory
+  democracy}}{{Hearing the other side: Deliberative versus participatory
+  democracy}}.
+\newblock
+\APACaddressPublisher{New York, NY}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Norris%
+\ \BBA{} Curtice%
+}{%
+Norris%
+\ \BBA{} Curtice%
+}{%
+{\protect\APACyear{2008}}%
+}]{%
+curticenorris}%
+\APACinsertmetastar{%
+curticenorris}%
+Norris, P.%
+\BCBT{}\ \BBA{} Curtice, J.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{{\APACmonth{05}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Getting the Message Out: A two-step model of the role of
+  the Internet in campaign communication flows during the 2005 British General
+  Election}}{{Getting the Message Out: A two-step model of the role of the
+  Internet in campaign communication flows during the 2005 British General
+  Election}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of Information Technology \&
+  Politics}{4}{4}{3--13}.
+\newblock
+ \begin{APACrefURL} \url{http://dx.doi.org/10.1080/19331680801975359}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Overbey%
+, Paribello%
+\BCBL{}\ \BBA{} Jackson%
+}{%
+Overbey%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
+}]{%
+Overbey2013}%
+\APACinsertmetastar{%
+Overbey2013}%
+Overbey, L\BPBI A.%
+, Paribello, C.%
+\BCBL{}\ \BBA{} Jackson, T.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Identifying Influential Twitter Users in the 2011
+  Egyptian Revolution}}{{Identifying Influential Twitter Users in the 2011
+  Egyptian Revolution}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{}{}{}{377--385}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Potter%
+\ \BBA{} Levine-Donnerstein%
+}{%
+Potter%
+\ \BBA{} Levine-Donnerstein%
+}{%
+{\protect\APACyear{1999}}%
+}]{%
+potterlevine}%
+\APACinsertmetastar{%
+potterlevine}%
+Potter, W\BPBI J.%
+\BCBT{}\ \BBA{} Levine-Donnerstein, D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Rethinking validity and reliability in content
+  analysis}}{{Rethinking validity and reliability in content analysis}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of Applied Communication
+  Research}{27}{3}{258--284}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Quercia%
+, Ellis%
+, Capra%
+\BCBL{}\ \BBA{} Crowcroft%
+}{%
+Quercia%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+Quercia2011a}%
+\APACinsertmetastar{%
+Quercia2011a}%
+Quercia, D.%
+, Ellis, J.%
+, Capra, L.%
+\BCBL{}\ \BBA{} Crowcroft, J.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\APACrefbtitle{{In the Mood for Being Influential on Twitter}.}{{In the Mood
+  for Being Influential on Twitter}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Rattanaritnont%
+, Toyoda%
+\BCBL{}\ \BBA{} Kitsuregawa%
+}{%
+Rattanaritnont%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2012}}%
+}]{%
+Rattanaritnont2012}%
+\APACinsertmetastar{%
+Rattanaritnont2012}%
+Rattanaritnont, G.%
+, Toyoda, M.%
+\BCBL{}\ \BBA{} Kitsuregawa, M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Characterizing Topic-Specific Hashtag Cascade in Twitter
+  Based on Distributions}}{{Characterizing Topic-Specific Hashtag Cascade in
+  Twitter Based on Distributions}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{}{}{}{735--742}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Richards%
+\ \BBA{} Richards%
+}{%
+Richards%
+\ \BBA{} Richards%
+}{%
+{\protect\APACyear{1995}}%
+}]{%
+richardsrichards}%
+\APACinsertmetastar{%
+richardsrichards}%
+Richards, T.%
+\BCBT{}\ \BBA{} Richards, L.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Using hierarchical categories in qualitative data
+  analysis}}{{Using hierarchical categories in qualitative data
+  analysis}}.\BBCQ{}
+\newblock
+\BIn{} U.~Kelle\ (\BED), \APACrefbtitle{Computer-aided qualitative data
+  analysis.}{Computer-aided qualitative data analysis.}
+\newblock
+\APACaddressPublisher{}{SAGE}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Robinson%
+}{%
+Robinson%
+}{%
+{\protect\APACyear{1976}}%
+}]{%
+Robinson1976}%
+\APACinsertmetastar{%
+Robinson1976}%
+Robinson, J\BPBI P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1976}{{\APACmonth{09}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Interpersonal Influence in Election Campaigns: Two
+  Step-flow Hypotheses}}{{Interpersonal Influence in Election Campaigns: Two
+  Step-flow Hypotheses}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Public Opinion Quarterly}{40}{3}{304--319}.
+\newblock
+ \begin{APACrefURL}
+  \url{http://poq.oxfordjournals.org/content/40/3/304.abstract}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Rogers%
+}{%
+Rogers%
+}{%
+{\protect\APACyear{2010}}%
+}]{%
+rogers4th}%
+\APACinsertmetastar{%
+rogers4th}%
+Rogers, E\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle{{Diffusion of Innovations, 4th Edition}}{{Diffusion of
+  Innovations, 4th Edition}}.
+\newblock
+\APACaddressPublisher{}{Free Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Romero%
 \ \BBA{} Kleinberg%
 }{%
@@ -274,6 +1489,34 @@ Romero, D\BPBI M.%
   formation on twitter}.\BBCQ{}
 \newblock
 \BIn{} \APACrefbtitle{In ICWSM.}{In icwsm.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Rourke%
+\ \BBA{} Anderson%
+}{%
+Rourke%
+\ \BBA{} Anderson%
+}{%
+{\protect\APACyear{2004}}%
+}]{%
+rourkeanderson}%
+\APACinsertmetastar{%
+rourkeanderson}%
+Rourke, L.%
+\BCBT{}\ \BBA{} Anderson, T.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Validity in quantitative content analysis}}{{Validity in
+  quantitative content analysis}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Educational Technology Research and
+  Development}{52}{1}{5--18}.
+\newblock
+ \begin{APACrefURL} \url{http://dx.doi.org/10.1007/BF02504769} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
@@ -311,6 +1554,134 @@ Shamma, D\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
+Sousa%
+}{%
+Sousa%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+Sousa}%
+\APACinsertmetastar{%
+Sousa}%
+Sousa, D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{\bibnodate{}}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Characterization of the Twitter @ replies Network : Are
+  User Ties Social or Topical ?}}{{Characterization of the Twitter @ replies
+  Network : Are User Ties Social or Topical ?}}\BBCQ{}
+\newblock
+\BIn{} (\BPGS\ 63--70).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Subbian%
+\ \BBA{} Melville%
+}{%
+Subbian%
+\ \BBA{} Melville%
+}{%
+{\protect\APACyear{2011}}%
+}]{%
+Subbian2011}%
+\APACinsertmetastar{%
+Subbian2011}%
+Subbian, K.%
+\BCBT{}\ \BBA{} Melville, P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Supervised Rank Aggregation for Predicting Influencers
+  in Twitter}}{{Supervised Rank Aggregation for Predicting Influencers in
+  Twitter}}.\BBCQ{}
+\newblock
+\BIn{} (\BPGS\ 661--665).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+D.~Watts%
+\ \BBA{} Dodds%
+}{%
+D.~Watts%
+\ \BBA{} Dodds%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
+Watts2007}%
+\APACinsertmetastar{%
+Watts2007}%
+Watts, D.%
+\BCBT{}\ \BBA{} Dodds, P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{{\APACmonth{12}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Influentials, Networks, and Public Opinion
+  Formation}}{{Influentials, Networks, and Public Opinion Formation}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of Consumer Research}{34}{4}{441--458}.
+\newblock
+ \begin{APACrefURL} \url{http://www.jstor.org/stable/10.1086/518527}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+D\BPBI J.~Watts%
+\ \BBA{} Strogatz%
+}{%
+D\BPBI J.~Watts%
+\ \BBA{} Strogatz%
+}{%
+{\protect\APACyear{1998}}%
+}]{%
+WattsStrogatz1998}%
+\APACinsertmetastar{%
+WattsStrogatz1998}%
+Watts, D\BPBI J.%
+\BCBT{}\ \BBA{} Strogatz, S\BPBI H.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Collective dynamics
+  of'small-world'networks.}}{{Collective dynamics
+  of'small-world'networks.}}\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Nature}{393}{6684}{409--10}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Weimann%
+}{%
+Weimann%
+}{%
+{\protect\APACyear{1982}}%
+}]{%
+weimann}%
+\APACinsertmetastar{%
+weimann}%
+Weimann, G.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{{\APACmonth{12}}}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{On the Importance of Marginality: One More Step into the
+  Two-Step Flow of Communication}}{{On the Importance of Marginality: One More
+  Step into the Two-Step Flow of Communication}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{American Sociological Review}{47}{6}{764--773}.
+\newblock
+ \begin{APACrefURL} \url{http://www.jstor.org/stable/2095212} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Weitzel%
 , Quaresma%
 \BCBL{}\ \BBA{} Oliveira%
@@ -341,6 +1712,33 @@ Weitzel, L.%
 \newblock
  \begin{APACrefURL} \url{http://doi.acm.org/10.1145/2254129.2254145}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Welser%
+}{%
+Welser%
+}{%
+{\protect\APACyear{2008}}%
+}]{%
+WelserSmithGleaveFisher2008}%
+\APACinsertmetastar{%
+WelserSmithGleaveFisher2008}%
+Welser, S\BPBI M\BPBI A\BPBI G\BPBI E\BPBI \BPBI F\BPBI D., H.~T.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Distilling digital traces: Computational social science
+  approaches to studying the internet}}{{Distilling digital traces:
+  Computational social science approaches to studying the internet}}.\BBCQ{}
+\newblock
+\BIn{} L\BPBI R.~{Blank Grant}\ \BBA{} N.~Fielding\ (\BEDS),
+  \APACrefbtitle{SAGE Handbook of Online Research Methods}{Sage handbook of
+  online research methods}\ (\BPGS\ 116--140).
+\newblock
+\APACaddressPublisher{}{SAGE}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
@@ -376,6 +1774,55 @@ Wu, S.%
 \newblock
  \begin{APACrefURL} \url{http://doi.acm.org/10.1145/1963405.1963504}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Ye%
+\ \BBA{} Wu%
+}{%
+Ye%
+\ \BBA{} Wu%
+}{%
+{\protect\APACyear{2010}}%
+}]{%
+Ye2010}%
+\APACinsertmetastar{%
+Ye2010}%
+Ye, S.%
+\BCBT{}\ \BBA{} Wu, S\BPBI F.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{Measuring Message Propagation and Social Influence on
+  Twitter . com}}{{Measuring Message Propagation and Social Influence on
+  Twitter . com}}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Social Informatics}{6430}{Section 3}{216--231}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Yin%
+}{%
+Yin%
+}{%
+{\protect\APACyear{2008}}%
+}]{%
+Yin2009}%
+\APACinsertmetastar{%
+Yin2009}%
+Yin, R\BPBI K.%
+%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle{Case Study Research: Design and Methods (Applied Social Research
+  Methods)}{Case study research: Design and methods (applied social research
+  methods)}\ (\PrintOrdinal{Fourth Edition.}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Sage Publications}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
